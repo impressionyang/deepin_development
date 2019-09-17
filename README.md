@@ -8,7 +8,7 @@
 ````bash
 RepoName               		#分支目录
 ├── Demo					#示例项目
-||	├── CMakeLists.txt      #项目根目录CMakeLists.txt配置文件
+|	├── CMakeLists.txt      #项目根目录CMakeLists.txt配置文件
 |	└── src                 #源码目录
 |    	├── CMakeLists.txt  #源码目录CMakeLists.txt配置文件
 |    	└── main.cpp        #程序入口
