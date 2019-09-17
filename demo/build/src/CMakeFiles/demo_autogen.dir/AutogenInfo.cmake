@@ -1,0 +1,33 @@
+# Directories and files
+set(AM_CMAKE_BINARY_DIR "/home/impressionyang/workspacae/clion/demo/build/")
+set(AM_CMAKE_SOURCE_DIR "/home/impressionyang/workspacae/clion/demo/")
+set(AM_CMAKE_CURRENT_SOURCE_DIR "/home/impressionyang/workspacae/clion/demo/src/")
+set(AM_CMAKE_CURRENT_BINARY_DIR "/home/impressionyang/workspacae/clion/demo/build/src/")
+set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
+set(AM_BUILD_DIR "/home/impressionyang/workspacae/clion/demo/build/src/demo_autogen")
+set(AM_SOURCES "/home/impressionyang/workspacae/clion/demo/src/labeltest.cpp;/home/impressionyang/workspacae/clion/demo/src/lineedittest.cpp;/home/impressionyang/workspacae/clion/demo/src/main.cpp;/home/impressionyang/workspacae/clion/demo/src/mainwindow.cpp;/home/impressionyang/workspacae/clion/demo/src/mywidget.cpp")
+set(AM_HEADERS "/home/impressionyang/workspacae/clion/demo/src/labeltest.h;/home/impressionyang/workspacae/clion/demo/src/lineedittest.h;/home/impressionyang/workspacae/clion/demo/src/mainwindow.h;/home/impressionyang/workspacae/clion/demo/src/mywidget.h")
+# Qt environment
+set(AM_QT_VERSION_MAJOR "5")
+set(AM_QT_MOC_EXECUTABLE "/usr/lib/x86_64-linux-gnu/qt5/bin/moc")
+set(AM_QT_UIC_EXECUTABLE "/usr/lib/x86_64-linux-gnu/qt5/bin/uic")
+set(AM_QT_RCC_EXECUTABLE "/usr/lib/x86_64-linux-gnu/qt5/bin/rcc")
+# MOC settings
+set(AM_MOC_SKIP "")
+set(AM_MOC_DEFINITIONS "QT_CORE_LIB;QT_DBUS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_SQL_LIB;QT_WIDGETS_LIB")
+set(AM_MOC_INCLUDES "/home/impressionyang/workspacae/clion/demo/build/src;/home/impressionyang/workspacae/clion/demo/src;/home/impressionyang/workspacae/clion/demo/build/src/demo_autogen/include;/usr/include/libdtk-2.0.16/DCore/../DWidget;/usr/include/libdtk-2.0.16/DCore;/usr/include/libdframeworkdbus-2.0;/usr/include/x86_64-linux-gnu/qt5;/usr/include/x86_64-linux-gnu/qt5/QtCore;/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64;/usr/include/x86_64-linux-gnu/qt5/QtGui;/usr/include/x86_64-linux-gnu/qt5/QtWidgets;/usr/include/x86_64-linux-gnu/qt5/QtNetwork;/usr/include/x86_64-linux-gnu/qt5/QtDBus;/usr/include/x86_64-linux-gnu/qt5/QtSql;/usr/include")
+set(AM_MOC_OPTIONS "")
+set(AM_MOC_RELAXED_MODE "FALSE")
+set(AM_MOC_DEPEND_FILTERS "")
+set(AM_MOC_PREDEFS_CMD )
+# UIC settings
+set(AM_UIC_SKIP "")
+set(AM_UIC_TARGET_OPTIONS "")
+set(AM_UIC_OPTIONS_FILES "")
+set(AM_UIC_OPTIONS_OPTIONS "")
+set(AM_UIC_SEARCH_PATHS "")
+# RCC settings
+set(AM_RCC_SOURCES "/home/impressionyang/workspacae/clion/demo/src/src.qrc" )
+set(AM_RCC_INPUTS "{/home/impressionyang/workspacae/clion/demo/src/images/tray_ico.png}")
+set(AM_RCC_OPTIONS_FILES "")
+set(AM_RCC_OPTIONS_OPTIONS "")
