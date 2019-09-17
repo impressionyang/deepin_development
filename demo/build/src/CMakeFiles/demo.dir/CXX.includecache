@@ -38,6 +38,22 @@ QtCore/qbytearray.h
 QtCore/qmetatype.h
 -
 
+/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_pushbuttontest.cpp
+../../../../src/pushbuttontest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/pushbuttontest.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_textedittest.cpp
+../../../../src/textedittest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/textedittest.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
 /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/qrc_src.cpp
 
 /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/mocs_compilation.cpp
@@ -49,6 +65,10 @@ EWIEGA46WW/moc_mainwindow.cpp
 /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_mainwindow.cpp
 EWIEGA46WW/moc_mywidget.cpp
 /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_mywidget.cpp
+EWIEGA46WW/moc_pushbuttontest.cpp
+/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_pushbuttontest.cpp
+EWIEGA46WW/moc_textedittest.cpp
+/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_textedittest.cpp
 
 /home/impressionyang/workspacae/deepin/deepin_development/demo/src/labeltest.cpp
 labeltest.h
@@ -111,6 +131,10 @@ labeltest.h
 /home/impressionyang/workspacae/deepin/deepin_development/demo/src/labeltest.h
 lineedittest.h
 /home/impressionyang/workspacae/deepin/deepin_development/demo/src/lineedittest.h
+textedittest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/textedittest.h
+pushbuttontest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/pushbuttontest.h
 
 /home/impressionyang/workspacae/deepin/deepin_development/demo/src/mywidget.cpp
 mywidget.h
@@ -132,6 +156,38 @@ QHBoxLayout
 QWidget
 -
 QPushButton
+-
+
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/pushbuttontest.cpp
+pushbuttontest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/pushbuttontest.h
+
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/pushbuttontest.h
+QWidget
+-
+QPushButton
+-
+dpushbutton.h
+-
+QVBoxLayout
+-
+QLabel
+-
+
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/textedittest.cpp
+textedittest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/textedittest.h
+
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/textedittest.h
+QWidget
+-
+QTextEdit
+-
+QVBoxLayout
+-
+dtextedit.h
+-
+QLabel
 -
 
 /usr/include/libdtk-2.0.16/DCore/../DWidget/DApplication
@@ -184,6 +240,14 @@ dobject.h
 QWidget
 -
 QPushButton
+-
+
+/usr/include/libdtk-2.0.16/DCore/../DWidget/dtextedit.h
+dtkwidget_global.h
+/usr/include/libdtk-2.0.16/DCore/../DWidget/dtkwidget_global.h
+dobject.h
+-
+QTextEdit
 -
 
 /usr/include/libdtk-2.0.16/DCore/../DWidget/dtkwidget_config.h
@@ -2322,6 +2386,20 @@ QtCore/qshareddata.h
 QtGui/qtextformat.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextdocument.h
+QtCore/qobject.h
+-
+QtCore/qsize.h
+-
+QtCore/qrect.h
+-
+QtCore/qvariant.h
+-
+QtGui/qfont.h
+-
+QtCore/qurl.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h
 QtGui/qcolor.h
 -
@@ -2414,6 +2492,10 @@ qmainwindow.h
 qpushbutton.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTextEdit
+qtextedit.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
 qboxlayout.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
@@ -2428,6 +2510,10 @@ QtGui/qicon.h
 QtGui/qkeysequence.h
 -
 QtWidgets/qwidget.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h
+QtWidgets/qframe.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
@@ -2528,6 +2614,18 @@ QtCore/qobject.h
 QtWidgets/qwidget.h
 -
 QtGui/qicon.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h
+QtWidgets/qabstractscrollarea.h
+-
+QtGui/qtextdocument.h
+-
+QtGui/qtextoption.h
+-
+QtGui/qtextcursor.h
+-
+QtGui/qtextformat.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h

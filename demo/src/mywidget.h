@@ -16,9 +16,8 @@ class MyWidget : public QWidget
 private:
     /* data */
 public:
-    MyWidget(QWidget *parent=nullptr);
+    MyWidget(QWidget *parent = nullptr);
     ~MyWidget();
 };
 
-
-#endif  //MYWIDGET_H
+#endif //MYWIDGET_H

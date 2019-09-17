@@ -404,7 +404,6 @@ public:
 
 private:
     QWidget *widget;
-    LabelTest *labelTest;
 };
 ```
 
@@ -514,7 +513,6 @@ public:
 
 private:
     QWidget *widget;
-    LineEditTest *lineEditTest;
 };
 ```
 
@@ -590,7 +588,126 @@ LineEditTest::~LineEditTest(){
 
 #### TextEdit
 
+- TextEdit提供了一个可以编辑多行文本的控件，使用它可以进行多行文本编辑操作
+
+- 实现
+
+- textedittest.h
+
+```h textedittest.h
+#ifndef TEXTEDITTEST_H
+#define TEXTEDITTEST_H
+
+#include <QWidget>
+#include <QTextEdit>
+#include <QVBoxLayout>
+#include <dtextedit.h>
+#include <QLabel>
+
+class TextEditTest : public QWidget
+{
+    Q_OBJECT
+
+public:
+    TextEditTest(QWidget *parent = nullptr);
+    ~TextEditTest();
+};
+
+#endif /* TEXTEDITTEST_H */
+```
+
+- textedittest.cpp
+
+```cpp textedittest.cpp
+#include "textedittest.h"
+
+TextEditTest::TextEditTest(QWidget *parent) : QWidget(parent)
+{
+    QLabel *l1=new QLabel("这是qtextedit");
+    QLabel *l2=new QLabel("这是dtextedit");
+
+    QTextEdit *textEdit1 = new QTextEdit();
+    Dtk::Widget::DTextEdit *textEdit2 = new Dtk::Widget::DTextEdit(this);
+
+    QVBoxLayout *layout = new QVBoxLayout();
+
+    layout->addWidget(l1);
+    layout->addWidget(textEdit1);
+    layout->addStretch();
+    layout->addWidget(l2);
+    layout->addWidget(textEdit2);
+    layout->addStretch();
+
+
+    this->setLayout(layout);
+}
+
+TextEditTest::~TextEditTest()
+{
+}
+```
+
+- 效果
+
+![textedittest](../img/深度截图_选择区域_20190917213939.png)
+
 #### PushButton
+
+- PushButton提供了一个可以按下的按钮操作，使用按钮可以发出一些信号来链接槽，下一章节再讲
+- 实现
+
+- pushbuttontest.h
+
+```h pushbuttontest.h
+#ifndef PUSHBUTTONTEST_H
+#define PUSHBUTTONTEST_H
+
+#include <QWidget>
+#include <QPushButton>
+#include <dpushbutton.h>
+#include <QVBoxLayout>
+#include <QLabel>
+
+class PushButtonTest : public QWidget{
+    Q_OBJECT
+public:
+    PushButtonTest(QWidget *parent = nullptr);
+    ~PushButtonTest();
+};
+
+#endif /* PUSHBUTTONTEST_H */
+```
+
+- pushbuttontest.cpp
+
+```cpp pushbuttontest.cpp
+#include "pushbuttontest.h"
+
+PushButtonTest::PushButtonTest(QWidget *parent) : QWidget(parent){
+    QPushButton *pushbutton=new QPushButton("qpushbutton");
+    Dtk::Widget::DPushButton *dpushbutton=new Dtk::Widget::DPushButton();
+    dpushbutton->setText("dpushbutton");
+    QLabel *label=new QLabel("下面是DPushButton");
+    QVBoxLayout *layout=new QVBoxLayout();
+    layout->addWidget(pushbutton);
+    layout->addStretch();
+    layout->addWidget(label);
+    layout->addWidget(dpushbutton);
+    layout->addStretch();
+    this->setLayout(layout);
+}
+
+PushButtonTest::~PushButtonTest(){
+
+}
+```
+
+
+- 效果
+
+![pushbuttontest](../img/深度截图_选择区域_20190917215936.png)
+
+#### 信号和槽
 
 #### QCheckBox
 

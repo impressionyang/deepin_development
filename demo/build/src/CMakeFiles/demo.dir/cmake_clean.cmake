@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/demo.dir/main.cpp.o"
   "CMakeFiles/demo.dir/mainwindow.cpp.o"
   "CMakeFiles/demo.dir/mywidget.cpp.o"
+  "CMakeFiles/demo.dir/pushbuttontest.cpp.o"
+  "CMakeFiles/demo.dir/textedittest.cpp.o"
   "CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/demo.dir/demo_autogen/EWIEGA46WW/qrc_src.cpp.o"
   "demo.pdb"

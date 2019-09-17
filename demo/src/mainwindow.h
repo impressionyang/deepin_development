@@ -5,6 +5,8 @@
 #include "mywidget.h"
 #include "labeltest.h"
 #include "lineedittest.h"
+#include "textedittest.h"
+#include "pushbuttontest.h"
 
 DWIDGET_USE_NAMESPACE
 
@@ -16,7 +18,4 @@ public:
 
 private:
     QWidget *widget;
-    MyWidget *myWidget;
-    LabelTest *labelTest;
-    LineEditTest *lineEditTest;
 };

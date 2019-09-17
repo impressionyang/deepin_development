@@ -375,6 +375,60 @@ mywidget.cpp.s:
 	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/mywidget.cpp.s
 .PHONY : mywidget.cpp.s
 
+pushbuttontest.o: pushbuttontest.cpp.o
+
+.PHONY : pushbuttontest.o
+
+# target to build an object file
+pushbuttontest.cpp.o:
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/pushbuttontest.cpp.o
+.PHONY : pushbuttontest.cpp.o
+
+pushbuttontest.i: pushbuttontest.cpp.i
+
+.PHONY : pushbuttontest.i
+
+# target to preprocess a source file
+pushbuttontest.cpp.i:
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/pushbuttontest.cpp.i
+.PHONY : pushbuttontest.cpp.i
+
+pushbuttontest.s: pushbuttontest.cpp.s
+
+.PHONY : pushbuttontest.s
+
+# target to generate assembly for a file
+pushbuttontest.cpp.s:
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/pushbuttontest.cpp.s
+.PHONY : pushbuttontest.cpp.s
+
+textedittest.o: textedittest.cpp.o
+
+.PHONY : textedittest.o
+
+# target to build an object file
+textedittest.cpp.o:
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/textedittest.cpp.o
+.PHONY : textedittest.cpp.o
+
+textedittest.i: textedittest.cpp.i
+
+.PHONY : textedittest.i
+
+# target to preprocess a source file
+textedittest.cpp.i:
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/textedittest.cpp.i
+.PHONY : textedittest.cpp.i
+
+textedittest.s: textedittest.cpp.s
+
+.PHONY : textedittest.s
+
+# target to generate assembly for a file
+textedittest.cpp.s:
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/textedittest.cpp.s
+.PHONY : textedittest.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -410,6 +464,12 @@ help:
 	@echo "... mywidget.o"
 	@echo "... mywidget.i"
 	@echo "... mywidget.s"
+	@echo "... pushbuttontest.o"
+	@echo "... pushbuttontest.i"
+	@echo "... pushbuttontest.s"
+	@echo "... textedittest.o"
+	@echo "... textedittest.i"
+	@echo "... textedittest.s"
 .PHONY : help
 
 
