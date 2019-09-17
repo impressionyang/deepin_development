@@ -5,7 +5,7 @@
 
 ## 项目目录结构
 
-````bash
+```C++
 RepoName               		#分支目录
 ├── Demo					#示例项目
 |├── CMakeLists.txt      #项目根目录CMakeLists.txt配置文件
