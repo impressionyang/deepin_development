@@ -14,7 +14,7 @@ RepoName                                #分支目录
 |       ...
 |        └── main.cpp                   #程序入口
 ├── doc
-| └── deepin_development_of_qt.md       #参考文档
+|    └── deepin_development_of_qt.md    #参考文档
 └── README.md                           #分支说明
 ````
 
