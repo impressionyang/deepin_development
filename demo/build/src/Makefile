@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/impressionyang/workspacae/clion/demo
+CMAKE_SOURCE_DIR = /home/impressionyang/workspacae/deepin/deepin_development/demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/impressionyang/workspacae/clion/demo/build
+CMAKE_BINARY_DIR = /home/impressionyang/workspacae/deepin/deepin_development/demo/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/impressionyang/workspacae/clion/demo/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/impressionyang/workspacae/clion/demo/build/CMakeFiles /home/impressionyang/workspacae/clion/demo/build/src/CMakeFiles/progress.marks
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/impressionyang/workspacae/clion/demo/build/CMakeFiles 0
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/CMakeFiles/progress.marks
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/demo.dir/rule:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/demo.dir/rule
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/demo.dir/rule
 .PHONY : src/CMakeFiles/demo.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ demo: src/CMakeFiles/demo.dir/rule
 
 # fast build rule for target.
 demo/fast:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/build
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/build
 .PHONY : demo/fast
 
 # Convenience name for target.
 src/CMakeFiles/demo_autogen.dir/rule:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/demo_autogen.dir/rule
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/demo_autogen.dir/rule
 .PHONY : src/CMakeFiles/demo_autogen.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ demo_autogen: src/CMakeFiles/demo_autogen.dir/rule
 
 # fast build rule for target.
 demo_autogen/fast:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo_autogen.dir/build.make src/CMakeFiles/demo_autogen.dir/build
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo_autogen.dir/build.make src/CMakeFiles/demo_autogen.dir/build
 .PHONY : demo_autogen/fast
 
 demo_autogen/EWIEGA46WW/qrc_src.o: demo_autogen/EWIEGA46WW/qrc_src.cpp.o
@@ -192,7 +192,7 @@ demo_autogen/EWIEGA46WW/qrc_src.o: demo_autogen/EWIEGA46WW/qrc_src.cpp.o
 
 # target to build an object file
 demo_autogen/EWIEGA46WW/qrc_src.cpp.o:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/demo_autogen/EWIEGA46WW/qrc_src.cpp.o
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/demo_autogen/EWIEGA46WW/qrc_src.cpp.o
 .PHONY : demo_autogen/EWIEGA46WW/qrc_src.cpp.o
 
 demo_autogen/EWIEGA46WW/qrc_src.i: demo_autogen/EWIEGA46WW/qrc_src.cpp.i
@@ -201,7 +201,7 @@ demo_autogen/EWIEGA46WW/qrc_src.i: demo_autogen/EWIEGA46WW/qrc_src.cpp.i
 
 # target to preprocess a source file
 demo_autogen/EWIEGA46WW/qrc_src.cpp.i:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/demo_autogen/EWIEGA46WW/qrc_src.cpp.i
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/demo_autogen/EWIEGA46WW/qrc_src.cpp.i
 .PHONY : demo_autogen/EWIEGA46WW/qrc_src.cpp.i
 
 demo_autogen/EWIEGA46WW/qrc_src.s: demo_autogen/EWIEGA46WW/qrc_src.cpp.s
@@ -210,7 +210,7 @@ demo_autogen/EWIEGA46WW/qrc_src.s: demo_autogen/EWIEGA46WW/qrc_src.cpp.s
 
 # target to generate assembly for a file
 demo_autogen/EWIEGA46WW/qrc_src.cpp.s:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/demo_autogen/EWIEGA46WW/qrc_src.cpp.s
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/demo_autogen/EWIEGA46WW/qrc_src.cpp.s
 .PHONY : demo_autogen/EWIEGA46WW/qrc_src.cpp.s
 
 demo_autogen/mocs_compilation.o: demo_autogen/mocs_compilation.cpp.o
@@ -219,7 +219,7 @@ demo_autogen/mocs_compilation.o: demo_autogen/mocs_compilation.cpp.o
 
 # target to build an object file
 demo_autogen/mocs_compilation.cpp.o:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.o
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.o
 .PHONY : demo_autogen/mocs_compilation.cpp.o
 
 demo_autogen/mocs_compilation.i: demo_autogen/mocs_compilation.cpp.i
@@ -228,7 +228,7 @@ demo_autogen/mocs_compilation.i: demo_autogen/mocs_compilation.cpp.i
 
 # target to preprocess a source file
 demo_autogen/mocs_compilation.cpp.i:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.i
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.i
 .PHONY : demo_autogen/mocs_compilation.cpp.i
 
 demo_autogen/mocs_compilation.s: demo_autogen/mocs_compilation.cpp.s
@@ -237,7 +237,7 @@ demo_autogen/mocs_compilation.s: demo_autogen/mocs_compilation.cpp.s
 
 # target to generate assembly for a file
 demo_autogen/mocs_compilation.cpp.s:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.s
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.s
 .PHONY : demo_autogen/mocs_compilation.cpp.s
 
 labeltest.o: labeltest.cpp.o
@@ -246,7 +246,7 @@ labeltest.o: labeltest.cpp.o
 
 # target to build an object file
 labeltest.cpp.o:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/labeltest.cpp.o
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/labeltest.cpp.o
 .PHONY : labeltest.cpp.o
 
 labeltest.i: labeltest.cpp.i
@@ -255,7 +255,7 @@ labeltest.i: labeltest.cpp.i
 
 # target to preprocess a source file
 labeltest.cpp.i:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/labeltest.cpp.i
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/labeltest.cpp.i
 .PHONY : labeltest.cpp.i
 
 labeltest.s: labeltest.cpp.s
@@ -264,7 +264,7 @@ labeltest.s: labeltest.cpp.s
 
 # target to generate assembly for a file
 labeltest.cpp.s:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/labeltest.cpp.s
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/labeltest.cpp.s
 .PHONY : labeltest.cpp.s
 
 lineedittest.o: lineedittest.cpp.o
@@ -273,7 +273,7 @@ lineedittest.o: lineedittest.cpp.o
 
 # target to build an object file
 lineedittest.cpp.o:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/lineedittest.cpp.o
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/lineedittest.cpp.o
 .PHONY : lineedittest.cpp.o
 
 lineedittest.i: lineedittest.cpp.i
@@ -282,7 +282,7 @@ lineedittest.i: lineedittest.cpp.i
 
 # target to preprocess a source file
 lineedittest.cpp.i:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/lineedittest.cpp.i
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/lineedittest.cpp.i
 .PHONY : lineedittest.cpp.i
 
 lineedittest.s: lineedittest.cpp.s
@@ -291,7 +291,7 @@ lineedittest.s: lineedittest.cpp.s
 
 # target to generate assembly for a file
 lineedittest.cpp.s:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/lineedittest.cpp.s
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/lineedittest.cpp.s
 .PHONY : lineedittest.cpp.s
 
 main.o: main.cpp.o
@@ -300,7 +300,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/main.cpp.o
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -309,7 +309,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/main.cpp.i
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -318,7 +318,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/main.cpp.s
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 mainwindow.o: mainwindow.cpp.o
@@ -327,7 +327,7 @@ mainwindow.o: mainwindow.cpp.o
 
 # target to build an object file
 mainwindow.cpp.o:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/mainwindow.cpp.o
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/mainwindow.cpp.o
 .PHONY : mainwindow.cpp.o
 
 mainwindow.i: mainwindow.cpp.i
@@ -336,7 +336,7 @@ mainwindow.i: mainwindow.cpp.i
 
 # target to preprocess a source file
 mainwindow.cpp.i:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/mainwindow.cpp.i
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/mainwindow.cpp.i
 .PHONY : mainwindow.cpp.i
 
 mainwindow.s: mainwindow.cpp.s
@@ -345,7 +345,7 @@ mainwindow.s: mainwindow.cpp.s
 
 # target to generate assembly for a file
 mainwindow.cpp.s:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/mainwindow.cpp.s
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
 mywidget.o: mywidget.cpp.o
@@ -354,7 +354,7 @@ mywidget.o: mywidget.cpp.o
 
 # target to build an object file
 mywidget.cpp.o:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/mywidget.cpp.o
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/mywidget.cpp.o
 .PHONY : mywidget.cpp.o
 
 mywidget.i: mywidget.cpp.i
@@ -363,7 +363,7 @@ mywidget.i: mywidget.cpp.i
 
 # target to preprocess a source file
 mywidget.cpp.i:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/mywidget.cpp.i
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/mywidget.cpp.i
 .PHONY : mywidget.cpp.i
 
 mywidget.s: mywidget.cpp.s
@@ -372,7 +372,7 @@ mywidget.s: mywidget.cpp.s
 
 # target to generate assembly for a file
 mywidget.cpp.s:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/mywidget.cpp.s
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/mywidget.cpp.s
 .PHONY : mywidget.cpp.s
 
 # Help Target
@@ -421,6 +421,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

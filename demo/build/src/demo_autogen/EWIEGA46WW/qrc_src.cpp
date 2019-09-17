@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 static const unsigned char qt_resource_data[] = {
-  // /home/impressionyang/workspacae/clion/demo/src/images/tray_ico.png
+  // /home/impressionyang/workspacae/deepin/deepin_development/demo/src/images/tray_ico.png
   0x0,0x0,0x7e,0x80,
   0x89,
   0x50,0x4e,0x47,0xd,0xa,0x1a,0xa,0x0,0x0,0x0,0xd,0x49,0x48,0x44,0x52,0x0,

@@ -6,55 +6,55 @@
 
 #IncludeRegexTransform: 
 
-/home/impressionyang/workspacae/clion/demo/build/src/demo_autogen/EWIEGA46WW/moc_labeltest.cpp
+/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_labeltest.cpp
 ../../../../src/labeltest.h
-/home/impressionyang/workspacae/clion/demo/src/labeltest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/labeltest.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/impressionyang/workspacae/clion/demo/build/src/demo_autogen/EWIEGA46WW/moc_lineedittest.cpp
+/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_lineedittest.cpp
 ../../../../src/lineedittest.h
-/home/impressionyang/workspacae/clion/demo/src/lineedittest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/lineedittest.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/impressionyang/workspacae/clion/demo/build/src/demo_autogen/EWIEGA46WW/moc_mainwindow.cpp
+/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_mainwindow.cpp
 ../../../../src/mainwindow.h
-/home/impressionyang/workspacae/clion/demo/src/mainwindow.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/mainwindow.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/impressionyang/workspacae/clion/demo/build/src/demo_autogen/EWIEGA46WW/moc_mywidget.cpp
+/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_mywidget.cpp
 ../../../../src/mywidget.h
-/home/impressionyang/workspacae/clion/demo/src/mywidget.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/mywidget.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/impressionyang/workspacae/clion/demo/build/src/demo_autogen/EWIEGA46WW/qrc_src.cpp
+/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/qrc_src.cpp
 
-/home/impressionyang/workspacae/clion/demo/build/src/demo_autogen/mocs_compilation.cpp
+/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/mocs_compilation.cpp
 EWIEGA46WW/moc_labeltest.cpp
-/home/impressionyang/workspacae/clion/demo/build/src/demo_autogen/EWIEGA46WW/moc_labeltest.cpp
+/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_labeltest.cpp
 EWIEGA46WW/moc_lineedittest.cpp
-/home/impressionyang/workspacae/clion/demo/build/src/demo_autogen/EWIEGA46WW/moc_lineedittest.cpp
+/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_lineedittest.cpp
 EWIEGA46WW/moc_mainwindow.cpp
-/home/impressionyang/workspacae/clion/demo/build/src/demo_autogen/EWIEGA46WW/moc_mainwindow.cpp
+/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_mainwindow.cpp
 EWIEGA46WW/moc_mywidget.cpp
-/home/impressionyang/workspacae/clion/demo/build/src/demo_autogen/EWIEGA46WW/moc_mywidget.cpp
+/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_mywidget.cpp
 
-/home/impressionyang/workspacae/clion/demo/src/labeltest.cpp
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/labeltest.cpp
 labeltest.h
-/home/impressionyang/workspacae/clion/demo/src/labeltest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/labeltest.h
 
-/home/impressionyang/workspacae/clion/demo/src/labeltest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/labeltest.h
 dlabel.h
 -
 QLabel
@@ -64,11 +64,11 @@ QVBoxLayout
 QWidget
 -
 
-/home/impressionyang/workspacae/clion/demo/src/lineedittest.cpp
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/lineedittest.cpp
 lineedittest.h
-/home/impressionyang/workspacae/clion/demo/src/lineedittest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/lineedittest.h
 
-/home/impressionyang/workspacae/clion/demo/src/lineedittest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/lineedittest.h
 QWidget
 -
 QLineEdit
@@ -80,7 +80,7 @@ QVBoxLayout
 QLabel
 -
 
-/home/impressionyang/workspacae/clion/demo/src/main.cpp
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/main.cpp
 DApplication
 -
 DUtil
@@ -94,29 +94,29 @@ DLog
 zconf.h
 -
 mainwindow.h
-/home/impressionyang/workspacae/clion/demo/src/mainwindow.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/mainwindow.h
 
-/home/impressionyang/workspacae/clion/demo/src/mainwindow.cpp
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/mainwindow.cpp
 mainwindow.h
-/home/impressionyang/workspacae/clion/demo/src/mainwindow.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/mainwindow.h
 
-/home/impressionyang/workspacae/clion/demo/src/mainwindow.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/mainwindow.h
 DMainWindow
 -
 QHBoxLayout
 -
 mywidget.h
-/home/impressionyang/workspacae/clion/demo/src/mywidget.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/mywidget.h
 labeltest.h
-/home/impressionyang/workspacae/clion/demo/src/labeltest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/labeltest.h
 lineedittest.h
-/home/impressionyang/workspacae/clion/demo/src/lineedittest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/lineedittest.h
 
-/home/impressionyang/workspacae/clion/demo/src/mywidget.cpp
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/mywidget.cpp
 mywidget.h
-/home/impressionyang/workspacae/clion/demo/src/mywidget.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/mywidget.h
 
-/home/impressionyang/workspacae/clion/demo/src/mywidget.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/mywidget.h
 dlabel.h
 -
 dpushbutton.h

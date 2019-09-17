@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/impressionyang/workspacae/clion/demo
+CMAKE_SOURCE_DIR = /home/impressionyang/workspacae/deepin/deepin_development/demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/impressionyang/workspacae/clion/demo/build
+CMAKE_BINARY_DIR = /home/impressionyang/workspacae/deepin/deepin_development/demo/build
 
 # Utility rule file for demo_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/impressionyang/workspacae/clion/demo/build
 include src/CMakeFiles/demo_autogen.dir/progress.make
 
 src/CMakeFiles/demo_autogen: ../src/images/tray_ico.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/impressionyang/workspacae/clion/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC, UIC and RCC for target demo"
-	cd /home/impressionyang/workspacae/clion/demo/build/src && /usr/bin/cmake -E cmake_autogen /home/impressionyang/workspacae/clion/demo/build/src/CMakeFiles/demo_autogen.dir Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC, UIC and RCC for target demo"
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src && /usr/bin/cmake -E cmake_autogen /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/CMakeFiles/demo_autogen.dir Debug
 
 demo_autogen: src/CMakeFiles/demo_autogen
 demo_autogen: src/CMakeFiles/demo_autogen.dir/build.make
@@ -68,10 +68,10 @@ src/CMakeFiles/demo_autogen.dir/build: demo_autogen
 .PHONY : src/CMakeFiles/demo_autogen.dir/build
 
 src/CMakeFiles/demo_autogen.dir/clean:
-	cd /home/impressionyang/workspacae/clion/demo/build/src && $(CMAKE_COMMAND) -P CMakeFiles/demo_autogen.dir/cmake_clean.cmake
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src && $(CMAKE_COMMAND) -P CMakeFiles/demo_autogen.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/demo_autogen.dir/clean
 
 src/CMakeFiles/demo_autogen.dir/depend:
-	cd /home/impressionyang/workspacae/clion/demo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/impressionyang/workspacae/clion/demo /home/impressionyang/workspacae/clion/demo/src /home/impressionyang/workspacae/clion/demo/build /home/impressionyang/workspacae/clion/demo/build/src /home/impressionyang/workspacae/clion/demo/build/src/CMakeFiles/demo_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/impressionyang/workspacae/deepin/deepin_development/demo /home/impressionyang/workspacae/deepin/deepin_development/demo/src /home/impressionyang/workspacae/deepin/deepin_development/demo/build /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/CMakeFiles/demo_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/demo_autogen.dir/depend
 

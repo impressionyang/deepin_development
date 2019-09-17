@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/impressionyang/workspacae/clion/demo/build/src/demo_autogen/EWIEGA46WW/qrc_src.cpp" "/home/impressionyang/workspacae/clion/demo/build/src/CMakeFiles/demo.dir/demo_autogen/EWIEGA46WW/qrc_src.cpp.o"
-  "/home/impressionyang/workspacae/clion/demo/build/src/demo_autogen/mocs_compilation.cpp" "/home/impressionyang/workspacae/clion/demo/build/src/CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.o"
-  "/home/impressionyang/workspacae/clion/demo/src/labeltest.cpp" "/home/impressionyang/workspacae/clion/demo/build/src/CMakeFiles/demo.dir/labeltest.cpp.o"
-  "/home/impressionyang/workspacae/clion/demo/src/lineedittest.cpp" "/home/impressionyang/workspacae/clion/demo/build/src/CMakeFiles/demo.dir/lineedittest.cpp.o"
-  "/home/impressionyang/workspacae/clion/demo/src/main.cpp" "/home/impressionyang/workspacae/clion/demo/build/src/CMakeFiles/demo.dir/main.cpp.o"
-  "/home/impressionyang/workspacae/clion/demo/src/mainwindow.cpp" "/home/impressionyang/workspacae/clion/demo/build/src/CMakeFiles/demo.dir/mainwindow.cpp.o"
-  "/home/impressionyang/workspacae/clion/demo/src/mywidget.cpp" "/home/impressionyang/workspacae/clion/demo/build/src/CMakeFiles/demo.dir/mywidget.cpp.o"
+  "/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/qrc_src.cpp" "/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/CMakeFiles/demo.dir/demo_autogen/EWIEGA46WW/qrc_src.cpp.o"
+  "/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/mocs_compilation.cpp" "/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.o"
+  "/home/impressionyang/workspacae/deepin/deepin_development/demo/src/labeltest.cpp" "/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/CMakeFiles/demo.dir/labeltest.cpp.o"
+  "/home/impressionyang/workspacae/deepin/deepin_development/demo/src/lineedittest.cpp" "/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/CMakeFiles/demo.dir/lineedittest.cpp.o"
+  "/home/impressionyang/workspacae/deepin/deepin_development/demo/src/main.cpp" "/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/CMakeFiles/demo.dir/main.cpp.o"
+  "/home/impressionyang/workspacae/deepin/deepin_development/demo/src/mainwindow.cpp" "/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/CMakeFiles/demo.dir/mainwindow.cpp.o"
+  "/home/impressionyang/workspacae/deepin/deepin_development/demo/src/mywidget.cpp" "/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/CMakeFiles/demo.dir/mywidget.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
