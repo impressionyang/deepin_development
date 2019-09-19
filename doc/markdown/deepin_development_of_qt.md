@@ -269,7 +269,42 @@ int main(int argc, char *argv[]) {
 
 ### 高级
 
+  
 
+#### QRC文件
+
+qrc文件是qt定制的一种管理项目资源文件的标准，其显示在qtcreator中的效果如下：
+
+![qrc file ](../img/深度截图_选择区域_20190916131535.png)
+
+**sample**
+
+- filename: src.qrc
+
+```xml
+<RCC>
+    <qresource prefix="/src">
+        <file>images/impressionyang_logo.png</file>
+        <file>images/impressionyang_logo.svg</file>
+        <file>images/tray_ico.png</file>
+        <file>images/head_test.png</file>
+        <file>images/arm_test.png</file>
+        <file>images/body_test.png</file>
+        <file>images/left_arm_test.png</file>
+        <file>images/right_arm_test.png</file>
+        <file>images/thin_body_test.png</file>
+    </qresource>
+</RCC>
+
+```
+
+**using**
+
+- 使用qrc资源的路径
+
+```C++
+:/src/images/left_arm_test.png
+```
 
 #### MainWindow
 
