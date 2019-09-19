@@ -28,28 +28,28 @@ The CXX compiler identification is Clang, found in "/home/impressionyang/workspa
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ff923/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ff923.dir/build.make CMakeFiles/cmTC_ff923.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_884a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_884a1.dir/build.make CMakeFiles/cmTC_884a1.dir/build
 make[1]: Entering directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ff923.dir/testCCompiler.c.o
-/bin/clang-3.8    -o CMakeFiles/cmTC_ff923.dir/testCCompiler.c.o   -c /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_ff923
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff923.dir/link.txt --verbose=1
-/bin/clang-3.8      CMakeFiles/cmTC_ff923.dir/testCCompiler.c.o  -o cmTC_ff923 
+Building C object CMakeFiles/cmTC_884a1.dir/testCCompiler.c.o
+/bin/clang-3.8    -o CMakeFiles/cmTC_884a1.dir/testCCompiler.c.o   -c /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_884a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_884a1.dir/link.txt --verbose=1
+/bin/clang-3.8      CMakeFiles/cmTC_884a1.dir/testCCompiler.c.o  -o cmTC_884a1 
 make[1]: Leaving directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0ec75/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0ec75.dir/build.make CMakeFiles/cmTC_0ec75.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e8b9d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8b9d.dir/build.make CMakeFiles/cmTC_e8b9d.dir/build
 make[1]: Entering directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0ec75.dir/CMakeCCompilerABI.c.o
-/bin/clang-3.8    -o CMakeFiles/cmTC_0ec75.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.9/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_0ec75
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ec75.dir/link.txt --verbose=1
-/bin/clang-3.8     -v CMakeFiles/cmTC_0ec75.dir/CMakeCCompilerABI.c.o  -o cmTC_0ec75 
+Building C object CMakeFiles/cmTC_e8b9d.dir/CMakeCCompilerABI.c.o
+/bin/clang-3.8    -o CMakeFiles/cmTC_e8b9d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.9/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_e8b9d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8b9d.dir/link.txt --verbose=1
+/bin/clang-3.8     -v CMakeFiles/cmTC_e8b9d.dir/CMakeCCompilerABI.c.o  -o cmTC_e8b9d 
 clang version 3.8.1-24 (tags/RELEASE_381/final)
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -61,7 +61,7 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.3.0
 Selected GCC installation: /bin/../lib/gcc/x86_64-linux-gnu/6.3.0
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/bin/ld" --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0ec75 /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crt1.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crti.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtbegin.o -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0 -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../.. -L/usr/lib/llvm-3.8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_0ec75.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtend.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crtn.o
+ "/bin/ld" --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e8b9d /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crt1.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crti.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtbegin.o -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0 -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../.. -L/usr/lib/llvm-3.8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_e8b9d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtend.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
 
 
@@ -69,14 +69,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0ec75/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0ec75.dir/build.make CMakeFiles/cmTC_0ec75.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e8b9d/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e8b9d.dir/build.make CMakeFiles/cmTC_e8b9d.dir/build]
   ignore line: [make[1]: Entering directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_0ec75.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/bin/clang-3.8    -o CMakeFiles/cmTC_0ec75.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_0ec75]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ec75.dir/link.txt --verbose=1]
-  ignore line: [/bin/clang-3.8     -v CMakeFiles/cmTC_0ec75.dir/CMakeCCompilerABI.c.o  -o cmTC_0ec75 ]
+  ignore line: [Building C object CMakeFiles/cmTC_e8b9d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/bin/clang-3.8    -o CMakeFiles/cmTC_e8b9d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_e8b9d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8b9d.dir/link.txt --verbose=1]
+  ignore line: [/bin/clang-3.8     -v CMakeFiles/cmTC_e8b9d.dir/CMakeCCompilerABI.c.o  -o cmTC_e8b9d ]
   ignore line: [clang version 3.8.1-24 (tags/RELEASE_381/final)]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -90,7 +90,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/bin/ld" --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0ec75 /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crt1.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crti.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtbegin.o -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0 -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../.. -L/usr/lib/llvm-3.8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_0ec75.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtend.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/bin/ld" --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e8b9d /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crt1.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crti.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtbegin.o -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0 -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../.. -L/usr/lib/llvm-3.8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_e8b9d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtend.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crtn.o]
     arg [/bin/ld] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
@@ -98,7 +98,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_0ec75] ==> ignore
+    arg [cmTC_e8b9d] ==> ignore
     arg [/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtbegin.o] ==> ignore
@@ -114,7 +114,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/llvm-3.8/bin/../lib] ==> dir [/usr/lib/llvm-3.8/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_0ec75.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_e8b9d.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -148,14 +148,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_33d14/fast"
-/usr/bin/make -f CMakeFiles/cmTC_33d14.dir/build.make CMakeFiles/cmTC_33d14.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d0b39/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d0b39.dir/build.make CMakeFiles/cmTC_d0b39.dir/build
 make[1]: Entering directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_33d14.dir/feature_tests.c.o
-/bin/clang-3.8   -std=c11 -o CMakeFiles/cmTC_33d14.dir/feature_tests.c.o   -c /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_33d14
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33d14.dir/link.txt --verbose=1
-/bin/clang-3.8      CMakeFiles/cmTC_33d14.dir/feature_tests.c.o  -o cmTC_33d14 
+Building C object CMakeFiles/cmTC_d0b39.dir/feature_tests.c.o
+/bin/clang-3.8   -std=c11 -o CMakeFiles/cmTC_d0b39.dir/feature_tests.c.o   -c /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d0b39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0b39.dir/link.txt --verbose=1
+/bin/clang-3.8      CMakeFiles/cmTC_d0b39.dir/feature_tests.c.o  -o cmTC_d0b39 
 make[1]: Leaving directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
 
 
@@ -168,14 +168,14 @@ make[1]: Leaving directory '/home/impressionyang/workspacae/deepin/deepin_develo
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5d168/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5d168.dir/build.make CMakeFiles/cmTC_5d168.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e417a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e417a.dir/build.make CMakeFiles/cmTC_e417a.dir/build
 make[1]: Entering directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5d168.dir/feature_tests.c.o
-/bin/clang-3.8   -std=c99 -o CMakeFiles/cmTC_5d168.dir/feature_tests.c.o   -c /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_5d168
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d168.dir/link.txt --verbose=1
-/bin/clang-3.8      CMakeFiles/cmTC_5d168.dir/feature_tests.c.o  -o cmTC_5d168 
+Building C object CMakeFiles/cmTC_e417a.dir/feature_tests.c.o
+/bin/clang-3.8   -std=c99 -o CMakeFiles/cmTC_e417a.dir/feature_tests.c.o   -c /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e417a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e417a.dir/link.txt --verbose=1
+/bin/clang-3.8      CMakeFiles/cmTC_e417a.dir/feature_tests.c.o  -o cmTC_e417a 
 make[1]: Leaving directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
 
 
@@ -188,14 +188,14 @@ make[1]: Leaving directory '/home/impressionyang/workspacae/deepin/deepin_develo
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3204f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3204f.dir/build.make CMakeFiles/cmTC_3204f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5d9ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5d9ec.dir/build.make CMakeFiles/cmTC_5d9ec.dir/build
 make[1]: Entering directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3204f.dir/feature_tests.c.o
-/bin/clang-3.8   -std=c90 -o CMakeFiles/cmTC_3204f.dir/feature_tests.c.o   -c /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3204f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3204f.dir/link.txt --verbose=1
-/bin/clang-3.8      CMakeFiles/cmTC_3204f.dir/feature_tests.c.o  -o cmTC_3204f 
+Building C object CMakeFiles/cmTC_5d9ec.dir/feature_tests.c.o
+/bin/clang-3.8   -std=c90 -o CMakeFiles/cmTC_5d9ec.dir/feature_tests.c.o   -c /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5d9ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d9ec.dir/link.txt --verbose=1
+/bin/clang-3.8      CMakeFiles/cmTC_5d9ec.dir/feature_tests.c.o  -o cmTC_5d9ec 
 make[1]: Leaving directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
 
 
@@ -206,28 +206,28 @@ make[1]: Leaving directory '/home/impressionyang/workspacae/deepin/deepin_develo
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_49270/fast"
-/usr/bin/make -f CMakeFiles/cmTC_49270.dir/build.make CMakeFiles/cmTC_49270.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f6983/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6983.dir/build.make CMakeFiles/cmTC_f6983.dir/build
 make[1]: Entering directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_49270.dir/testCXXCompiler.cxx.o
-/bin/clang++-3.8     -o CMakeFiles/cmTC_49270.dir/testCXXCompiler.cxx.o -c /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_49270
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49270.dir/link.txt --verbose=1
-/bin/clang++-3.8       CMakeFiles/cmTC_49270.dir/testCXXCompiler.cxx.o  -o cmTC_49270 
+Building CXX object CMakeFiles/cmTC_f6983.dir/testCXXCompiler.cxx.o
+/bin/clang++-3.8     -o CMakeFiles/cmTC_f6983.dir/testCXXCompiler.cxx.o -c /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f6983
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6983.dir/link.txt --verbose=1
+/bin/clang++-3.8       CMakeFiles/cmTC_f6983.dir/testCXXCompiler.cxx.o  -o cmTC_f6983 
 make[1]: Leaving directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4b2e4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4b2e4.dir/build.make CMakeFiles/cmTC_4b2e4.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3f17e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3f17e.dir/build.make CMakeFiles/cmTC_3f17e.dir/build
 make[1]: Entering directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4b2e4.dir/CMakeCXXCompilerABI.cpp.o
-/bin/clang++-3.8     -o CMakeFiles/cmTC_4b2e4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_4b2e4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b2e4.dir/link.txt --verbose=1
-/bin/clang++-3.8      -v CMakeFiles/cmTC_4b2e4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4b2e4 
+Building CXX object CMakeFiles/cmTC_3f17e.dir/CMakeCXXCompilerABI.cpp.o
+/bin/clang++-3.8     -o CMakeFiles/cmTC_3f17e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_3f17e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f17e.dir/link.txt --verbose=1
+/bin/clang++-3.8      -v CMakeFiles/cmTC_3f17e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3f17e 
 clang version 3.8.1-24 (tags/RELEASE_381/final)
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -239,7 +239,7 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.3.0
 Selected GCC installation: /bin/../lib/gcc/x86_64-linux-gnu/6.3.0
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/bin/ld" --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_4b2e4 /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crt1.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crti.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtbegin.o -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0 -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../.. -L/usr/lib/llvm-3.8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_4b2e4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtend.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crtn.o
+ "/bin/ld" --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3f17e /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crt1.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crti.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtbegin.o -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0 -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../.. -L/usr/lib/llvm-3.8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_3f17e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtend.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
 
 
@@ -247,14 +247,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4b2e4/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4b2e4.dir/build.make CMakeFiles/cmTC_4b2e4.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3f17e/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_3f17e.dir/build.make CMakeFiles/cmTC_3f17e.dir/build]
   ignore line: [make[1]: Entering directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_4b2e4.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/bin/clang++-3.8     -o CMakeFiles/cmTC_4b2e4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_4b2e4]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b2e4.dir/link.txt --verbose=1]
-  ignore line: [/bin/clang++-3.8      -v CMakeFiles/cmTC_4b2e4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4b2e4 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_3f17e.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/bin/clang++-3.8     -o CMakeFiles/cmTC_3f17e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_3f17e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f17e.dir/link.txt --verbose=1]
+  ignore line: [/bin/clang++-3.8      -v CMakeFiles/cmTC_3f17e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3f17e ]
   ignore line: [clang version 3.8.1-24 (tags/RELEASE_381/final)]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -268,7 +268,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/bin/ld" --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_4b2e4 /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crt1.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crti.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtbegin.o -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0 -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../.. -L/usr/lib/llvm-3.8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_4b2e4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtend.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/bin/ld" --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3f17e /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crt1.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crti.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtbegin.o -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0 -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../.. -L/usr/lib/llvm-3.8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_3f17e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtend.o /bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crtn.o]
     arg [/bin/ld] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
@@ -276,7 +276,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_4b2e4] ==> ignore
+    arg [cmTC_3f17e] ==> ignore
     arg [/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtbegin.o] ==> ignore
@@ -292,7 +292,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/llvm-3.8/bin/../lib] ==> dir [/usr/lib/llvm-3.8/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_4b2e4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_3f17e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -324,14 +324,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_94544/fast"
-/usr/bin/make -f CMakeFiles/cmTC_94544.dir/build.make CMakeFiles/cmTC_94544.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_41093/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41093.dir/build.make CMakeFiles/cmTC_41093.dir/build
 make[1]: Entering directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_94544.dir/feature_tests.cxx.o
-/bin/clang++-3.8    -std=c++1z -o CMakeFiles/cmTC_94544.dir/feature_tests.cxx.o -c /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_94544
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94544.dir/link.txt --verbose=1
-/bin/clang++-3.8       CMakeFiles/cmTC_94544.dir/feature_tests.cxx.o  -o cmTC_94544 
+Building CXX object CMakeFiles/cmTC_41093.dir/feature_tests.cxx.o
+/bin/clang++-3.8    -std=c++1z -o CMakeFiles/cmTC_41093.dir/feature_tests.cxx.o -c /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_41093
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41093.dir/link.txt --verbose=1
+/bin/clang++-3.8       CMakeFiles/cmTC_41093.dir/feature_tests.cxx.o  -o cmTC_41093 
 make[1]: Leaving directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
 
 
@@ -397,14 +397,14 @@ make[1]: Leaving directory '/home/impressionyang/workspacae/deepin/deepin_develo
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_78047/fast"
-/usr/bin/make -f CMakeFiles/cmTC_78047.dir/build.make CMakeFiles/cmTC_78047.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_49d19/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49d19.dir/build.make CMakeFiles/cmTC_49d19.dir/build
 make[1]: Entering directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_78047.dir/feature_tests.cxx.o
-/bin/clang++-3.8    -std=c++14 -o CMakeFiles/cmTC_78047.dir/feature_tests.cxx.o -c /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_78047
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78047.dir/link.txt --verbose=1
-/bin/clang++-3.8       CMakeFiles/cmTC_78047.dir/feature_tests.cxx.o  -o cmTC_78047 
+Building CXX object CMakeFiles/cmTC_49d19.dir/feature_tests.cxx.o
+/bin/clang++-3.8    -std=c++14 -o CMakeFiles/cmTC_49d19.dir/feature_tests.cxx.o -c /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_49d19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49d19.dir/link.txt --verbose=1
+/bin/clang++-3.8       CMakeFiles/cmTC_49d19.dir/feature_tests.cxx.o  -o cmTC_49d19 
 make[1]: Leaving directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
 
 
@@ -470,14 +470,14 @@ make[1]: Leaving directory '/home/impressionyang/workspacae/deepin/deepin_develo
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_57e0e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_57e0e.dir/build.make CMakeFiles/cmTC_57e0e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a67e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a67e2.dir/build.make CMakeFiles/cmTC_a67e2.dir/build
 make[1]: Entering directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_57e0e.dir/feature_tests.cxx.o
-/bin/clang++-3.8    -std=c++11 -o CMakeFiles/cmTC_57e0e.dir/feature_tests.cxx.o -c /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_57e0e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57e0e.dir/link.txt --verbose=1
-/bin/clang++-3.8       CMakeFiles/cmTC_57e0e.dir/feature_tests.cxx.o  -o cmTC_57e0e 
+Building CXX object CMakeFiles/cmTC_a67e2.dir/feature_tests.cxx.o
+/bin/clang++-3.8    -std=c++11 -o CMakeFiles/cmTC_a67e2.dir/feature_tests.cxx.o -c /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a67e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a67e2.dir/link.txt --verbose=1
+/bin/clang++-3.8       CMakeFiles/cmTC_a67e2.dir/feature_tests.cxx.o  -o cmTC_a67e2 
 make[1]: Leaving directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
 
 
@@ -543,14 +543,14 @@ make[1]: Leaving directory '/home/impressionyang/workspacae/deepin/deepin_develo
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f74c9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f74c9.dir/build.make CMakeFiles/cmTC_f74c9.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d5451/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d5451.dir/build.make CMakeFiles/cmTC_d5451.dir/build
 make[1]: Entering directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f74c9.dir/feature_tests.cxx.o
-/bin/clang++-3.8    -std=c++98 -o CMakeFiles/cmTC_f74c9.dir/feature_tests.cxx.o -c /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f74c9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f74c9.dir/link.txt --verbose=1
-/bin/clang++-3.8       CMakeFiles/cmTC_f74c9.dir/feature_tests.cxx.o  -o cmTC_f74c9 
+Building CXX object CMakeFiles/cmTC_d5451.dir/feature_tests.cxx.o
+/bin/clang++-3.8    -std=c++98 -o CMakeFiles/cmTC_d5451.dir/feature_tests.cxx.o -c /home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d5451
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5451.dir/link.txt --verbose=1
+/bin/clang++-3.8       CMakeFiles/cmTC_d5451.dir/feature_tests.cxx.o  -o cmTC_d5451 
 make[1]: Leaving directory '/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles/CMakeTmp'
 
 

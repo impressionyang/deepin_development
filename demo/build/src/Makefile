@@ -402,6 +402,33 @@ pushbuttontest.cpp.s:
 	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/pushbuttontest.cpp.s
 .PHONY : pushbuttontest.cpp.s
 
+signalslottest.o: signalslottest.cpp.o
+
+.PHONY : signalslottest.o
+
+# target to build an object file
+signalslottest.cpp.o:
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/signalslottest.cpp.o
+.PHONY : signalslottest.cpp.o
+
+signalslottest.i: signalslottest.cpp.i
+
+.PHONY : signalslottest.i
+
+# target to preprocess a source file
+signalslottest.cpp.i:
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/signalslottest.cpp.i
+.PHONY : signalslottest.cpp.i
+
+signalslottest.s: signalslottest.cpp.s
+
+.PHONY : signalslottest.s
+
+# target to generate assembly for a file
+signalslottest.cpp.s:
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/signalslottest.cpp.s
+.PHONY : signalslottest.cpp.s
+
 textedittest.o: textedittest.cpp.o
 
 .PHONY : textedittest.o
@@ -467,6 +494,9 @@ help:
 	@echo "... pushbuttontest.o"
 	@echo "... pushbuttontest.i"
 	@echo "... pushbuttontest.s"
+	@echo "... signalslottest.o"
+	@echo "... signalslottest.i"
+	@echo "... signalslottest.s"
 	@echo "... textedittest.o"
 	@echo "... textedittest.i"
 	@echo "... textedittest.s"

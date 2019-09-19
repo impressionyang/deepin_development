@@ -709,6 +709,83 @@ PushButtonTest::~PushButtonTest(){
 
 #### 信号和槽
 
+- 信号和槽是Qt的经典之处，很多组件通过信号和槽之间的配合就能实现出其他语言的多线程效果，可谓是Qt的一大利器
+- 信号和槽的关系
+
+顾名思义，信号就是一种消息机制，某个组件可以由用户需求（如按下）自己发出一个信号，而槽就是接受信号的机制，槽本质上其实就是一个实现了的方法（函数），当信号连接到槽并且信号被提交之后，相应的槽函数就会被激活，并且根据信号上的内容执行不同的操作
+
+- 信号和槽在某些组件上是已经写好默认的了，当然如果你想给自定义组件上或者重写的组件上添加自定义的信号和槽也是可以的
+
+- 下面就用信号和槽来做一个演示，点击（PushButton）按钮（Label上）显示点击次数
+
+- 实现
+
+- 信号和槽的常用连接有几种方法
+
+```C++
+QObject::connect(&m_signal,SIGNAL(signals()),&m_slot,SLOT(slot()));
+
+QObject::connect(&m_signal,&QCSignal::signals,&m_slot,&QCSignal::slot)
+
+QObject::connect(&m_signal,&QCSignal::signals,&m_slot,[](){//lamda函数})
+```
+
+- 讲解：3种方法，第1和第2种方法都是使用已经定义的槽和函数进行链连接，第1种是可以进行参数传递的，第二种方法不能出现槽或者信号参数的重载，而我本人比较喜欢的是第3种，槽使用lamda表达式进行自定义槽函数，使得槽函数更灵活。
+- 使用信号和槽的示例代码
+- signalslottest.cpp中
+
+```c++
+	count=0;
+
+    QVBoxLayout *layout=new QVBoxLayout();
+    QLabel *label=new QLabel("0");
+    QPushButton *btn=new QPushButton("add");
+    QSlider *slider=new QSlider(Qt::Horizontal);
+
+    layout->addStretch();
+    layout->addWidget(label);
+    layout->addStretch();
+    layout->addWidget(btn);
+    layout->addStretch();
+    layout->addWidget(slider);
+    layout->addStretch();
+
+    this->setLayout(layout);
+
+    connect(btn,&QPushButton::clicked,label,[=](bool a){
+        count++;
+        label->setText(QString::number(count));
+    });
+
+
+    connect(slider,SIGNAL(valueChanged(int)),label,SLOT(setNum(int)));
+
+    // 相同效果
+    // connect(slider,&QSlider::valueChanged,label,[=](int value){
+    //     label->setNum(value);
+    // });
+```
+
+- 效果如下
+
+![slot signal](../img/深度截图_选择区域_20190919220323.png)
+
+- 自定义信号和槽
+
+**信号**  
+
+信号只需要定义即可，无需写实现代码，并且定义信号之后需要对信号的相应进行类似注册的操作（即emit），需要在某个方法emit该信号，方可使得信号可以在这个方法调用的时候激活信号并且确定信号传输的消息，否则信号就无用武之地了。  
+
+**槽**  
+
+槽函数的话就是写出其自身的功能就好，等待与信号链接之后信号激活是相应  
+
+- 所以一整套/自定义的信号和槽总结如下
+- 定义阶段：定义信号和槽，信号需要emit
+- 连接：使用connect函数连接，但此时并未响应任何界面变动
+- 使用阶段：当信号被激活，即emit该信号的方法被调用时，连接好的槽函数将会响应并影响界面
+
+
 #### QCheckBox
 
 #### QRadioButton

@@ -40,6 +40,7 @@ int main(int argc, char *argv[]) {
         // window.show();
 
         MainWindow w;
+        w.setMinimumWidth(500);
         Dtk::Widget::moveToCenter(&w);
         w.show();
 

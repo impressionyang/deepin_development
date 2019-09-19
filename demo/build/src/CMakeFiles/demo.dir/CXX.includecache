@@ -46,6 +46,14 @@ QtCore/qbytearray.h
 QtCore/qmetatype.h
 -
 
+/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_signalslottest.cpp
+../../../../src/signalslottest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/signalslottest.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
 /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_textedittest.cpp
 ../../../../src/textedittest.h
 /home/impressionyang/workspacae/deepin/deepin_development/demo/src/textedittest.h
@@ -67,6 +75,8 @@ EWIEGA46WW/moc_mywidget.cpp
 /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_mywidget.cpp
 EWIEGA46WW/moc_pushbuttontest.cpp
 /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_pushbuttontest.cpp
+EWIEGA46WW/moc_signalslottest.cpp
+/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_signalslottest.cpp
 EWIEGA46WW/moc_textedittest.cpp
 /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_textedittest.cpp
 
@@ -135,6 +145,8 @@ textedittest.h
 /home/impressionyang/workspacae/deepin/deepin_development/demo/src/textedittest.h
 pushbuttontest.h
 /home/impressionyang/workspacae/deepin/deepin_development/demo/src/pushbuttontest.h
+signalslottest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/signalslottest.h
 
 /home/impressionyang/workspacae/deepin/deepin_development/demo/src/mywidget.cpp
 mywidget.h
@@ -172,6 +184,24 @@ dpushbutton.h
 QVBoxLayout
 -
 QLabel
+-
+
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/signalslottest.cpp
+signalslottest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/signalslottest.h
+QDebug
+-
+
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/signalslottest.h
+QWidget
+-
+QLabel
+-
+QPushButton
+-
+QVBoxLayout
+-
+QSlider
 -
 
 /home/impressionyang/workspacae/deepin/deepin_development/demo/src/textedittest.cpp
@@ -2492,6 +2522,10 @@ qmainwindow.h
 qpushbutton.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSlider
+qslider.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTextEdit
 qtextedit.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h
@@ -2514,6 +2548,10 @@ QtWidgets/qwidget.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h
 QtWidgets/qframe.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h
+QtWidgets/qwidget.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
@@ -2608,6 +2646,10 @@ QtWidgets/qabstractbutton.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
 QtCore/qobject.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
+QtWidgets/qabstractslider.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
