@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/demo_autogen.dir/AutogenOldSettings.txt"
+  "CMakeFiles/demo_autogen.dir/ParseCache.txt"
   "demo_autogen"
-  "CMakeFiles/demo_autogen.dir/AutogenOldSettings.cmake"
+  "CMakeFiles/demo.dir/demo_autogen/EWIEGA46WW/qrc_src.cpp.o"
+  "CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/demo.dir/labeltest.cpp.o"
   "CMakeFiles/demo.dir/lineedittest.cpp.o"
   "CMakeFiles/demo.dir/main.cpp.o"
@@ -9,10 +12,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/demo.dir/pushbuttontest.cpp.o"
   "CMakeFiles/demo.dir/signalslottest.cpp.o"
   "CMakeFiles/demo.dir/textedittest.cpp.o"
-  "CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.o"
-  "CMakeFiles/demo.dir/demo_autogen/EWIEGA46WW/qrc_src.cpp.o"
-  "demo.pdb"
   "demo"
+  "demo.pdb"
+  "demo_autogen/EWIEGA46WW/qrc_src.cpp"
 )
 
 # Per-language clean rules from dependency scanning.
