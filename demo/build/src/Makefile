@@ -321,6 +321,33 @@ lineedittest.cpp.s:
 	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/lineedittest.cpp.s
 .PHONY : lineedittest.cpp.s
 
+listviewtest.o: listviewtest.cpp.o
+
+.PHONY : listviewtest.o
+
+# target to build an object file
+listviewtest.cpp.o:
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/listviewtest.cpp.o
+.PHONY : listviewtest.cpp.o
+
+listviewtest.i: listviewtest.cpp.i
+
+.PHONY : listviewtest.i
+
+# target to preprocess a source file
+listviewtest.cpp.i:
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/listviewtest.cpp.i
+.PHONY : listviewtest.cpp.i
+
+listviewtest.s: listviewtest.cpp.s
+
+.PHONY : listviewtest.s
+
+# target to generate assembly for a file
+listviewtest.cpp.s:
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/listviewtest.cpp.s
+.PHONY : listviewtest.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -456,6 +483,33 @@ signalslottest.cpp.s:
 	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/signalslottest.cpp.s
 .PHONY : signalslottest.cpp.s
 
+testforui.o: testforui.cpp.o
+
+.PHONY : testforui.o
+
+# target to build an object file
+testforui.cpp.o:
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/testforui.cpp.o
+.PHONY : testforui.cpp.o
+
+testforui.i: testforui.cpp.i
+
+.PHONY : testforui.i
+
+# target to preprocess a source file
+testforui.cpp.i:
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/testforui.cpp.i
+.PHONY : testforui.cpp.i
+
+testforui.s: testforui.cpp.s
+
+.PHONY : testforui.s
+
+# target to generate assembly for a file
+testforui.cpp.s:
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/testforui.cpp.s
+.PHONY : testforui.cpp.s
+
 textedittest.o: textedittest.cpp.o
 
 .PHONY : textedittest.o
@@ -512,6 +566,9 @@ help:
 	@echo "... lineedittest.o"
 	@echo "... lineedittest.i"
 	@echo "... lineedittest.s"
+	@echo "... listviewtest.o"
+	@echo "... listviewtest.i"
+	@echo "... listviewtest.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -527,6 +584,9 @@ help:
 	@echo "... signalslottest.o"
 	@echo "... signalslottest.i"
 	@echo "... signalslottest.s"
+	@echo "... testforui.o"
+	@echo "... testforui.i"
+	@echo "... testforui.s"
 	@echo "... textedittest.o"
 	@echo "... textedittest.i"
 	@echo "... textedittest.s"

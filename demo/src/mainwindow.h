@@ -9,6 +9,8 @@
 #include "pushbuttontest.h"
 #include "signalslottest.h"
 #include "diysignaltest.h"
+#include "listviewtest.h"
+#include "testforui.h"
 
 DWIDGET_USE_NAMESPACE
 

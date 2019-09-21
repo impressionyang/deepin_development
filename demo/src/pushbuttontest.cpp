@@ -6,6 +6,7 @@ PushButtonTest::PushButtonTest(QWidget *parent) : QWidget(parent){
     dpushbutton->setText("dpushbutton");
     QLabel *label=new QLabel("下面是DPushButton");
     QVBoxLayout *layout=new QVBoxLayout();
+
     layout->addWidget(pushbutton);
     layout->addStretch();
     layout->addWidget(label);
