@@ -8,6 +8,7 @@
 #include "textedittest.h"
 #include "pushbuttontest.h"
 #include "signalslottest.h"
+#include "diysignaltest.h"
 
 DWIDGET_USE_NAMESPACE
 

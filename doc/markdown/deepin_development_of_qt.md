@@ -821,6 +821,73 @@ QObject::connect(&m_signal,&QCSignal::signals,&m_slot,[](){//lamda函数})
 - 使用阶段：当信号被激活，即emit该信号的方法被调用时，连接好的槽函数将会响应并影响界面
 
 
+
+- **实现**
+
+- diysignaltest.h
+
+```h diysignaltest.h
+#ifndef DIYSIGNALTEST_H
+#define DIYSIGNALTEST_H
+
+#include <QWidget>
+#include <QLabel>
+#include <QHBoxLayout>
+
+class DiySignalTest: public QWidget{
+    Q_OBJECT
+public:
+    DiySignalTest(QWidget *parent=nullptr);
+
+private:
+    QLabel *label;
+
+protected:
+
+    void resizeEvent(QResizeEvent *event) override;
+
+signals:
+    
+    void window_vchange(int);
+
+};
+
+#endif /* DIYSIGNALTEST_H */
+```
+
+- diysignaltest.cpp
+
+
+```cpp diysignaltest.cpp
+#include "diysignaltest.h"
+
+DiySignalTest::DiySignalTest(QWidget *parent):QWidget(parent){
+    QHBoxLayout *layout=new QHBoxLayout();
+    label=new QLabel("default");
+    QLabel *l=new QLabel("窗口宽度:");
+
+    layout->addWidget(l);
+    layout->addWidget(label);
+
+    this->setLayout(layout);
+
+    connect(this,&DiySignalTest::window_vchange,label,[=](int v_width){
+        label->setNum(v_width);
+    });
+
+}
+
+void DiySignalTest::resizeEvent(QResizeEvent *event){
+    int value=this->width();
+    emit window_vchange(value);
+}
+```
+
+
+- **效果**
+
+![diysignaltest](../img/深度截图_选择区域_20190921174628.png)
+
 #### QCheckBox
 
 #### QRadioButton

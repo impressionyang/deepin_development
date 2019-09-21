@@ -2,23 +2,25 @@
 #define DIYSIGNALTEST_H
 
 #include <QWidget>
+#include <QLabel>
+#include <QHBoxLayout>
 
 class DiySignalTest: public QWidget{
     Q_OBJECT
 public:
-    DiySignalTest(QWidget *parent);
+    DiySignalTest(QWidget *parent=nullptr);
 
 private:
-    int w_width;
+    QLabel *label;
 
 protected:
 
-    void resizeEvent(QResizeEvent *event);
+    void resizeEvent(QResizeEvent *event) override;
 
- signals:
+signals:
     
-    void window_vhange(int);
+    void window_vchange(int);
 
-}
+};
 
 #endif /* DIYSIGNALTEST_H */
