@@ -21,8 +21,10 @@ SignalSlotTest::SignalSlotTest(QWidget *parent) : QWidget(parent){
     this->setLayout(layout);
 
     connect(btn,&QPushButton::clicked,label,[=](bool a){
+        count=slider->value();
         count++;
         label->setText(QString::number(count));
+        slider->setValue(count);
     });
 
 

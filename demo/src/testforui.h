@@ -2,6 +2,9 @@
 #define TESTFORUI_H
 
 #include <QWidget>
+#include <QDebug>
+#include <QMessageBox>
+#include <ddialog.h>
 
 namespace Ui {
 class testforui;
@@ -14,6 +17,12 @@ class testforui : public QWidget
 public:
     explicit testforui(QWidget *parent = nullptr);
     ~testforui();
+
+private slots:
+    void on_lineEdit_returnPressed();
+
+private slots:
+    void on_pushButton_3_clicked();
 
 private slots:
     void on_pushButton_2_clicked();

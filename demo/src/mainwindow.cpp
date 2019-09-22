@@ -4,7 +4,8 @@
 
 MainWindow::MainWindow(QWidget *parent) : DMainWindow(parent){
 
-    widget=new testforui();
+    widget=new SignalSlotTest();
+    widget->setBaseSize(500,400);
     this->setCentralWidget(widget);
     setWindowTitle("demo test");
     setWindowIcon(QIcon(":/src/images/tray_ico.png"));

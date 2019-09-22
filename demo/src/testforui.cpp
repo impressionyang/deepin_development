@@ -39,3 +39,37 @@ void testforui::on_pushButton_2_clicked()
     ui->label->setNum(count2);
     ui->horizontalSlider->setValue(count2);
 }
+
+void testforui::on_pushButton_3_clicked()
+{
+    QString get=ui->lineEdit->text();
+    int value=get.toInt();
+    if(value<0||value>99){
+//        QMessageBox::warning(this,"warning","illegal number!");
+        Dtk::Widget::DDialog dialog("dwarning","illegal number!",this);
+        dialog.addButton("yes");
+        dialog.addButton("no");
+        int btn=dialog.exec();
+        qDebug()<<"dialog return: "<<btn;
+    }else {
+        ui->label->setNum(value);
+        ui->horizontalSlider->setValue(value);
+    }
+}
+
+void testforui::on_lineEdit_returnPressed()
+{
+    QString get=ui->lineEdit->text();
+    int value=get.toInt();
+    if(value<0||value>99){
+//        QMessageBox::warning(this,"warning","illegal number!");
+        Dtk::Widget::DDialog dialog("dwarning","illegal number!",this);
+        dialog.addButton("yes");
+        dialog.addButton("no");
+        int btn=dialog.exec();
+        qDebug()<<"dialog return: "<<btn;
+    }else {
+        ui->label->setNum(value);
+        ui->horizontalSlider->setValue(value);
+    }
+}
