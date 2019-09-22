@@ -1,0 +1,14 @@
+/home/impressionyang/Document/git_clone/deepin_development/build-demo-unknown-Default/CMakeFiles/rebuild_cache.dir
+/home/impressionyang/Document/git_clone/deepin_development/build-demo-unknown-Default/CMakeFiles/install/strip.dir
+/home/impressionyang/Document/git_clone/deepin_development/build-demo-unknown-Default/CMakeFiles/install/local.dir
+/home/impressionyang/Document/git_clone/deepin_development/build-demo-unknown-Default/CMakeFiles/edit_cache.dir
+/home/impressionyang/Document/git_clone/deepin_development/build-demo-unknown-Default/CMakeFiles/list_install_components.dir
+/home/impressionyang/Document/git_clone/deepin_development/build-demo-unknown-Default/CMakeFiles/install.dir
+/home/impressionyang/Document/git_clone/deepin_development/build-demo-unknown-Default/src/CMakeFiles/install/strip.dir
+/home/impressionyang/Document/git_clone/deepin_development/build-demo-unknown-Default/src/CMakeFiles/install/local.dir
+/home/impressionyang/Document/git_clone/deepin_development/build-demo-unknown-Default/src/CMakeFiles/edit_cache.dir
+/home/impressionyang/Document/git_clone/deepin_development/build-demo-unknown-Default/src/CMakeFiles/demo.dir
+/home/impressionyang/Document/git_clone/deepin_development/build-demo-unknown-Default/src/CMakeFiles/rebuild_cache.dir
+/home/impressionyang/Document/git_clone/deepin_development/build-demo-unknown-Default/src/CMakeFiles/install.dir
+/home/impressionyang/Document/git_clone/deepin_development/build-demo-unknown-Default/src/CMakeFiles/list_install_components.dir
+/home/impressionyang/Document/git_clone/deepin_development/build-demo-unknown-Default/src/CMakeFiles/demo_autogen.dir
