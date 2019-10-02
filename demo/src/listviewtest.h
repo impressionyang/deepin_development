@@ -11,6 +11,7 @@
 #include <QList>
 #include <dlistview.h>
 #include <QDebug>
+#include <QFrame>
 #include "mywidget.h"
 #include "labeltest.h"
 #include "lineedittest.h"

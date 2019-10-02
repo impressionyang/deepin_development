@@ -3,7 +3,13 @@
 ListViewTest::ListViewTest(QWidget *parent):QWidget(parent){
     init();
 
+
+    QFrame * line   = new QFrame();
+    line->setFrameShape(QFrame::VLine);
+    line->setFrameShadow(QFrame::Sunken);
+
     layout->addLayout(leftlauout);
+    layout->addWidget(line);
     layout->addLayout(rightlayout);
 
     this->setLayout(layout);
@@ -19,6 +25,8 @@ void ListViewTest::init(){
     model=new QStandardItemModel();
     listview=new QListView();
     listview->setMaximumWidth(200);
+    listview->setMinimumWidth(200);
+    listview->setSpacing(2);
     label=new QLabel("default");
 
     //    model->appendRow(item1);
