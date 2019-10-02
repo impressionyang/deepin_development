@@ -1,38 +1,71 @@
 #include "listviewtest.h"
 
 ListViewTest::ListViewTest(QWidget *parent):QWidget(parent){
+    init();
 
-    QHBoxLayout *layout=new QHBoxLayout();
-    QListView *listview=new QListView();
-    QStandardItemModel *model=new QStandardItemModel();
-    QStandardItem *item1=new QStandardItem("1");
-    QStandardItem *item2=new QStandardItem("2");
-    QStandardItem *item3=new QStandardItem(QIcon(":/src/images/tray_ico.png"),"10");
-    QList<QStandardItem *> list;
-    Dtk::Widget::DListView *dlistview=new Dtk::Widget::DListView();
-
-    list.append(new QStandardItem("3"));
-    list.append(new QStandardItem("4"));
-    list.append(new QStandardItem("5"));
-    list.append(new QStandardItem("6"));
-
-
-    item1->setEditable(false);
-    item2->setEditable(false);
-    item3->setEditable(false);
-
-    model->appendRow(item1);
-    model->appendRow(item2);
-    model->appendRow(item3);
-//    model->appendColumn(list);
-
-    listview->setModel(model);
-    dlistview->setModel(model);
-//    dlistview->addItem("1");
-//    dlistview->addItem("2");
-
-    layout->addWidget(listview);
-    layout->addWidget(dlistview);
+    layout->addLayout(leftlauout);
+    layout->addLayout(rightlayout);
 
     this->setLayout(layout);
+    this->setMinimumWidth(500);
+
+    setconnect();
+}
+
+void ListViewTest::init(){
+    layout=new QHBoxLayout(this);
+    leftlauout=new QVBoxLayout(this);
+    rightlayout=new QVBoxLayout(this);
+    model=new QStandardItemModel();
+    listview=new QListView();
+    listview->setMaximumWidth(200);
+    label=new QLabel("default");
+
+    //    model->appendRow(item1);
+    //    model->appendRow(item2);
+    //    model->appendRow(item3);
+    //    model->appendColumn(list);
+    widget_title_list.append(new QStandardItem(QIcon(":/src/images/tray_ico.png"),"Label test"));
+    widget_title_list.append(new QStandardItem(QIcon(":/src/images/tray_ico.png"),"LineEdit test"));
+    widget_title_list.append(new QStandardItem(QIcon(":/src/images/tray_ico.png"),"TextEdit test"));
+    widget_title_list.append(new QStandardItem(QIcon(":/src/images/tray_ico.png"),"PushButton test"));
+    widget_title_list.append(new QStandardItem(QIcon(":/src/images/tray_ico.png"),"Singnal&Slot test"));
+    widget_title_list.append(new QStandardItem(QIcon(":/src/images/tray_ico.png"),"DIY Signal&Slot"));
+    widget_title_list.append(new QStandardItem(QIcon(":/src/images/tray_ico.png"),"ui designer test"));
+
+    widget_list.append(new LabelTest());
+    widget_list.append(new LineEditTest());
+    widget_list.append(new TextEditTest());
+    widget_list.append(new PushButtonTest());
+    widget_list.append(new SignalSlotTest());
+    widget_list.append(new DiySignalTest());
+    widget_list.append(new testforui());
+
+
+    model->appendColumn(widget_title_list);
+    listview->setModel(model);
+
+    leftlauout->addWidget(listview);
+    leftlauout->addStretch();
+    leftlauout->addWidget(label);
+
+    rightlayout->addWidget(widget_list.at(0));
+    lastindex=0;
+}
+
+void ListViewTest::setconnect(){
+    connect(listview,&QListView::clicked,label,[=](const QModelIndex & index){
+        qDebug()<<"list item change by clicked     and index="<<index.row();
+        QWidget *itemget=listview->indexWidget(index);
+        QVariant variant= model->data(index);
+        label->setText(variant.toString());
+
+        QWidget *tempwidget=widget_list.at(lastindex);
+        rightlayout->removeWidget(tempwidget);
+        tempwidget->setParent(nullptr);
+
+        lastindex=index.row();
+        rightlayout->addWidget(widget_list.at(index.row()));
+
+    });
 }

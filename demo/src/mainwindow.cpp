@@ -2,7 +2,7 @@
 #include "mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent) : DMainWindow(parent) {
-  widget = new testforui();
+  widget = new ListViewTest();
   widget->setBaseSize(500, 400);
   this->setCentralWidget(widget);
   setWindowTitle("demo test");

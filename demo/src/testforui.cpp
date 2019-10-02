@@ -3,6 +3,7 @@
 
 testforui::testforui(QWidget *parent) : QWidget(parent), ui(new Ui::testforui) {
   ui->setupUi(this);
+  this->setMinimumWidth(400);
 }
 
 testforui::~testforui() { delete ui; }
