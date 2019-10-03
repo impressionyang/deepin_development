@@ -11,6 +11,7 @@
 #include "diysignaltest.h"
 #include "listviewtest.h"
 #include "testforui.h"
+#include "widgetlistview.h"
 
 DWIDGET_USE_NAMESPACE
 

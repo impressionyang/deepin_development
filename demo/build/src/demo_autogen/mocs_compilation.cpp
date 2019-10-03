@@ -9,3 +9,4 @@
 #include "EWIEGA46WW/moc_signalslottest.cpp"
 #include "EWIEGA46WW/moc_testforui.cpp"
 #include "EWIEGA46WW/moc_textedittest.cpp"
+#include "EWIEGA46WW/moc_widgetlistview.cpp"

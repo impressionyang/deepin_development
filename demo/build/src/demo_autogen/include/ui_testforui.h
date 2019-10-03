@@ -16,6 +16,7 @@
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
+#include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QSlider>
 #include <QtWidgets/QSpacerItem>
@@ -28,6 +29,7 @@ class Ui_testforui
 {
 public:
     QVBoxLayout *verticalLayout_3;
+    QSpacerItem *verticalSpacer_2;
     QHBoxLayout *horizontalLayout;
     QSpacerItem *horizontalSpacer_2;
     QLabel *label;
@@ -38,8 +40,15 @@ public:
     QSpacerItem *horizontalSpacer_3;
     QPushButton *pushButton_2;
     QSpacerItem *horizontalSpacer_5;
+    QHBoxLayout *horizontalLayout_4;
+    QSpacerItem *horizontalSpacer_7;
+    QLineEdit *lineEdit;
+    QSpacerItem *horizontalSpacer_6;
+    QPushButton *pushButton_3;
+    QSpacerItem *horizontalSpacer_8;
     QHBoxLayout *horizontalLayout_2;
     QSlider *horizontalSlider;
+    QSpacerItem *verticalSpacer;
 
     void setupUi(QWidget *testforui)
     {
@@ -48,6 +57,10 @@ public:
         testforui->resize(400, 300);
         verticalLayout_3 = new QVBoxLayout(testforui);
         verticalLayout_3->setObjectName(QStringLiteral("verticalLayout_3"));
+        verticalSpacer_2 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        verticalLayout_3->addItem(verticalSpacer_2);
+
         horizontalLayout = new QHBoxLayout();
         horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
         horizontalSpacer_2 = new QSpacerItem(379, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
@@ -93,6 +106,33 @@ public:
 
         verticalLayout_3->addLayout(horizontalLayout_3);
 
+        horizontalLayout_4 = new QHBoxLayout();
+        horizontalLayout_4->setObjectName(QStringLiteral("horizontalLayout_4"));
+        horizontalSpacer_7 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_4->addItem(horizontalSpacer_7);
+
+        lineEdit = new QLineEdit(testforui);
+        lineEdit->setObjectName(QStringLiteral("lineEdit"));
+
+        horizontalLayout_4->addWidget(lineEdit);
+
+        horizontalSpacer_6 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_4->addItem(horizontalSpacer_6);
+
+        pushButton_3 = new QPushButton(testforui);
+        pushButton_3->setObjectName(QStringLiteral("pushButton_3"));
+
+        horizontalLayout_4->addWidget(pushButton_3);
+
+        horizontalSpacer_8 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_4->addItem(horizontalSpacer_8);
+
+
+        verticalLayout_3->addLayout(horizontalLayout_4);
+
         horizontalLayout_2 = new QHBoxLayout();
         horizontalLayout_2->setObjectName(QStringLiteral("horizontalLayout_2"));
         horizontalSlider = new QSlider(testforui);
@@ -103,6 +143,10 @@ public:
 
 
         verticalLayout_3->addLayout(horizontalLayout_2);
+
+        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        verticalLayout_3->addItem(verticalSpacer);
 
 
         retranslateUi(testforui);
@@ -116,6 +160,7 @@ public:
         label->setText(QApplication::translate("testforui", "0", Q_NULLPTR));
         pushButton->setText(QApplication::translate("testforui", "+", Q_NULLPTR));
         pushButton_2->setText(QApplication::translate("testforui", "-", Q_NULLPTR));
+        pushButton_3->setText(QApplication::translate("testforui", "set", Q_NULLPTR));
     } // retranslateUi
 
 };

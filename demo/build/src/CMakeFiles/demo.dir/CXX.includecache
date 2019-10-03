@@ -86,6 +86,14 @@ QtCore/qbytearray.h
 QtCore/qmetatype.h
 -
 
+/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_widgetlistview.cpp
+../../../../src/widgetlistview.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/widgetlistview.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
 /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/qrc_src.cpp
 
 /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/mocs_compilation.cpp
@@ -109,6 +117,8 @@ EWIEGA46WW/moc_testforui.cpp
 /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_testforui.cpp
 EWIEGA46WW/moc_textedittest.cpp
 /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_textedittest.cpp
+EWIEGA46WW/moc_widgetlistview.cpp
+/home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/moc_widgetlistview.cpp
 
 /home/impressionyang/workspacae/deepin/deepin_development/demo/src/diysignaltest.cpp
 diysignaltest.h
@@ -175,6 +185,8 @@ QList
 -
 dlistview.h
 -
+QDebug
+-
 
 /home/impressionyang/workspacae/deepin/deepin_development/demo/src/main.cpp
 DApplication
@@ -219,6 +231,8 @@ listviewtest.h
 /home/impressionyang/workspacae/deepin/deepin_development/demo/src/listviewtest.h
 testforui.h
 /home/impressionyang/workspacae/deepin/deepin_development/demo/src/testforui.h
+widgetlistview.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/widgetlistview.h
 
 /home/impressionyang/workspacae/deepin/deepin_development/demo/src/mywidget.cpp
 mywidget.h
@@ -285,6 +299,12 @@ ui_testforui.h
 /home/impressionyang/workspacae/deepin/deepin_development/demo/src/testforui.h
 QWidget
 -
+QDebug
+-
+QMessageBox
+-
+ddialog.h
+-
 
 /home/impressionyang/workspacae/deepin/deepin_development/demo/src/textedittest.cpp
 textedittest.h
@@ -302,6 +322,52 @@ dtextedit.h
 QLabel
 -
 
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/widgetlistview.cpp
+widgetlistview.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/widgetlistview.h
+
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/widgetlistview.h
+QWidget
+-
+QHBoxLayout
+-
+QVBoxLayout
+-
+QListView
+-
+QLabel
+-
+QStandardItem
+-
+QStandardItemModel
+-
+QList
+-
+dlistview.h
+-
+QDebug
+-
+QFrame
+-
+mywidget.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/mywidget.h
+labeltest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/labeltest.h
+lineedittest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/lineedittest.h
+textedittest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/textedittest.h
+pushbuttontest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/pushbuttontest.h
+signalslottest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/signalslottest.h
+diysignaltest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/diysignaltest.h
+listviewtest.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/listviewtest.h
+testforui.h
+/home/impressionyang/workspacae/deepin/deepin_development/demo/src/testforui.h
+
 /usr/include/libdtk-2.0.16/DCore/../DWidget/DApplication
 dapplication.h
 /usr/include/libdtk-2.0.16/DCore/../DWidget/dapplication.h
@@ -314,6 +380,16 @@ dmainwindow.h
 dwidgetutil.h
 /usr/include/libdtk-2.0.16/DCore/../DWidget/dwidgetutil.h
 
+/usr/include/libdtk-2.0.16/DCore/../DWidget/dabstractdialog.h
+QDialog
+-
+QPoint
+-
+DObject
+-
+dtkwidget_global.h
+/usr/include/libdtk-2.0.16/DCore/../DWidget/dtkwidget_global.h
+
 /usr/include/libdtk-2.0.16/DCore/../DWidget/dapplication.h
 QApplication
 -
@@ -321,6 +397,12 @@ dtkwidget_global.h
 /usr/include/libdtk-2.0.16/DCore/../DWidget/dtkwidget_global.h
 dobject.h
 /usr/include/libdtk-2.0.16/DCore/../DWidget/dobject.h
+
+/usr/include/libdtk-2.0.16/DCore/../DWidget/ddialog.h
+QIcon
+-
+dabstractdialog.h
+/usr/include/libdtk-2.0.16/DCore/../DWidget/dabstractdialog.h
 
 /usr/include/libdtk-2.0.16/DCore/../DWidget/dlabel.h
 QLabel
@@ -436,6 +518,10 @@ AbstractStringAppender.h
 AbstractAppender.h
 /usr/include/libdtk-2.0.16/DCore/AbstractAppender.h
 
+/usr/include/libdtk-2.0.16/DCore/DObject
+dobject.h
+/usr/include/libdtk-2.0.16/DCore/dobject.h
+
 /usr/include/libdtk-2.0.16/DCore/DUtil
 dutil.h
 /usr/include/libdtk-2.0.16/DCore/dutil.h
@@ -531,6 +617,10 @@ qmutex.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 qobject.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QPoint
+qpoint.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QReadWriteLock
 qreadwritelock.h
@@ -2642,6 +2732,14 @@ qapplication.h
 qbuttongroup.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qbuttongroup.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
+qdialog.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame
+qframe.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 qboxlayout.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
@@ -2665,6 +2763,10 @@ qlistview.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
 qmainwindow.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
+qmessagebox.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
 qpushbutton.h
@@ -2782,6 +2884,10 @@ QtCore/qobject.h
 QtWidgets/qwidget.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+QtWidgets/qwidget.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
 QtWidgets/qwidget.h
 -
@@ -2846,6 +2952,10 @@ QtWidgets/qabstractitemview.h
 QtWidgets/qwidget.h
 -
 QtWidgets/qtabwidget.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
+QtWidgets/qdialog.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
@@ -2980,6 +3090,8 @@ QtWidgets/QHBoxLayout
 QtWidgets/QHeaderView
 -
 QtWidgets/QLabel
+-
+QtWidgets/QLineEdit
 -
 QtWidgets/QPushButton
 -

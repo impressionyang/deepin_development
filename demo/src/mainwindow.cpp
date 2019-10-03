@@ -2,7 +2,7 @@
 #include "mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent) : DMainWindow(parent) {
-  widget = new ListViewTest();
+  widget = new WidgetListview();
   widget->setBaseSize(500, 400);
   this->setCentralWidget(widget);
   setWindowTitle("demo test");

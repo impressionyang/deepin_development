@@ -321,9 +321,33 @@ src/CMakeFiles/demo.dir/textedittest.cpp.o.provides: src/CMakeFiles/demo.dir/tex
 src/CMakeFiles/demo.dir/textedittest.cpp.o.provides.build: src/CMakeFiles/demo.dir/textedittest.cpp.o
 
 
+src/CMakeFiles/demo.dir/widgetlistview.cpp.o: src/CMakeFiles/demo.dir/flags.make
+src/CMakeFiles/demo.dir/widgetlistview.cpp.o: ../src/widgetlistview.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/demo.dir/widgetlistview.cpp.o"
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src && /bin/clang++-3.8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo.dir/widgetlistview.cpp.o -c /home/impressionyang/workspacae/deepin/deepin_development/demo/src/widgetlistview.cpp
+
+src/CMakeFiles/demo.dir/widgetlistview.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo.dir/widgetlistview.cpp.i"
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src && /bin/clang++-3.8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/impressionyang/workspacae/deepin/deepin_development/demo/src/widgetlistview.cpp > CMakeFiles/demo.dir/widgetlistview.cpp.i
+
+src/CMakeFiles/demo.dir/widgetlistview.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo.dir/widgetlistview.cpp.s"
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src && /bin/clang++-3.8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/impressionyang/workspacae/deepin/deepin_development/demo/src/widgetlistview.cpp -o CMakeFiles/demo.dir/widgetlistview.cpp.s
+
+src/CMakeFiles/demo.dir/widgetlistview.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/demo.dir/widgetlistview.cpp.o.requires
+
+src/CMakeFiles/demo.dir/widgetlistview.cpp.o.provides: src/CMakeFiles/demo.dir/widgetlistview.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/widgetlistview.cpp.o.provides.build
+.PHONY : src/CMakeFiles/demo.dir/widgetlistview.cpp.o.provides
+
+src/CMakeFiles/demo.dir/widgetlistview.cpp.o.provides.build: src/CMakeFiles/demo.dir/widgetlistview.cpp.o
+
+
 src/CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.o: src/CMakeFiles/demo.dir/flags.make
 src/CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.o: src/demo_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.o"
 	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src && /bin/clang++-3.8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.o -c /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/mocs_compilation.cpp
 
 src/CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.i: cmake_force
@@ -347,7 +371,7 @@ src/CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.o.provides.build: src/
 
 src/CMakeFiles/demo.dir/demo_autogen/EWIEGA46WW/qrc_src.cpp.o: src/CMakeFiles/demo.dir/flags.make
 src/CMakeFiles/demo.dir/demo_autogen/EWIEGA46WW/qrc_src.cpp.o: src/demo_autogen/EWIEGA46WW/qrc_src.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/demo.dir/demo_autogen/EWIEGA46WW/qrc_src.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/demo.dir/demo_autogen/EWIEGA46WW/qrc_src.cpp.o"
 	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src && /bin/clang++-3.8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo.dir/demo_autogen/EWIEGA46WW/qrc_src.cpp.o -c /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src/demo_autogen/EWIEGA46WW/qrc_src.cpp
 
 src/CMakeFiles/demo.dir/demo_autogen/EWIEGA46WW/qrc_src.cpp.i: cmake_force
@@ -382,6 +406,7 @@ demo_OBJECTS = \
 "CMakeFiles/demo.dir/signalslottest.cpp.o" \
 "CMakeFiles/demo.dir/testforui.cpp.o" \
 "CMakeFiles/demo.dir/textedittest.cpp.o" \
+"CMakeFiles/demo.dir/widgetlistview.cpp.o" \
 "CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/demo.dir/demo_autogen/EWIEGA46WW/qrc_src.cpp.o"
 
@@ -399,6 +424,7 @@ src/demo: src/CMakeFiles/demo.dir/pushbuttontest.cpp.o
 src/demo: src/CMakeFiles/demo.dir/signalslottest.cpp.o
 src/demo: src/CMakeFiles/demo.dir/testforui.cpp.o
 src/demo: src/CMakeFiles/demo.dir/textedittest.cpp.o
+src/demo: src/CMakeFiles/demo.dir/widgetlistview.cpp.o
 src/demo: src/CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.o
 src/demo: src/CMakeFiles/demo.dir/demo_autogen/EWIEGA46WW/qrc_src.cpp.o
 src/demo: src/CMakeFiles/demo.dir/build.make
@@ -409,7 +435,7 @@ src/demo: /usr/lib/x86_64-linux-gnu/libQt5Sql.so.5.7.1
 src/demo: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.7.1
 src/demo: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.7.1
 src/demo: src/CMakeFiles/demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/impressionyang/workspacae/deepin/deepin_development/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable demo"
 	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -428,6 +454,7 @@ src/CMakeFiles/demo.dir/requires: src/CMakeFiles/demo.dir/pushbuttontest.cpp.o.r
 src/CMakeFiles/demo.dir/requires: src/CMakeFiles/demo.dir/signalslottest.cpp.o.requires
 src/CMakeFiles/demo.dir/requires: src/CMakeFiles/demo.dir/testforui.cpp.o.requires
 src/CMakeFiles/demo.dir/requires: src/CMakeFiles/demo.dir/textedittest.cpp.o.requires
+src/CMakeFiles/demo.dir/requires: src/CMakeFiles/demo.dir/widgetlistview.cpp.o.requires
 src/CMakeFiles/demo.dir/requires: src/CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.o.requires
 src/CMakeFiles/demo.dir/requires: src/CMakeFiles/demo.dir/demo_autogen/EWIEGA46WW/qrc_src.cpp.o.requires
 

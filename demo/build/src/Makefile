@@ -537,6 +537,33 @@ textedittest.cpp.s:
 	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/textedittest.cpp.s
 .PHONY : textedittest.cpp.s
 
+widgetlistview.o: widgetlistview.cpp.o
+
+.PHONY : widgetlistview.o
+
+# target to build an object file
+widgetlistview.cpp.o:
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/widgetlistview.cpp.o
+.PHONY : widgetlistview.cpp.o
+
+widgetlistview.i: widgetlistview.cpp.i
+
+.PHONY : widgetlistview.i
+
+# target to preprocess a source file
+widgetlistview.cpp.i:
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/widgetlistview.cpp.i
+.PHONY : widgetlistview.cpp.i
+
+widgetlistview.s: widgetlistview.cpp.s
+
+.PHONY : widgetlistview.s
+
+# target to generate assembly for a file
+widgetlistview.cpp.s:
+	cd /home/impressionyang/workspacae/deepin/deepin_development/demo/build && $(MAKE) -f src/CMakeFiles/demo.dir/build.make src/CMakeFiles/demo.dir/widgetlistview.cpp.s
+.PHONY : widgetlistview.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -590,6 +617,9 @@ help:
 	@echo "... textedittest.o"
 	@echo "... textedittest.i"
 	@echo "... textedittest.s"
+	@echo "... widgetlistview.o"
+	@echo "... widgetlistview.i"
+	@echo "... widgetlistview.s"
 .PHONY : help
 
 

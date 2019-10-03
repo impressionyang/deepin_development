@@ -12,6 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/demo.dir/signalslottest.cpp.o"
   "CMakeFiles/demo.dir/testforui.cpp.o"
   "CMakeFiles/demo.dir/textedittest.cpp.o"
+  "CMakeFiles/demo.dir/widgetlistview.cpp.o"
   "CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/demo.dir/demo_autogen/EWIEGA46WW/qrc_src.cpp.o"
   "demo.pdb"
