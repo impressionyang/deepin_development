@@ -116,6 +116,8 @@ sudo make install
 
 #### 应用开发项目配置
 
+##### qtcreator qmake
+
 - 这个是使用qtcreator进行开发（使用qmake的）才需要注意的问题
 
 - 注意在pro文件中添加相应config，否则无法识别出deepin套件
@@ -125,6 +127,9 @@ CONFIG += link_pkgconfig
 PKGCONFIG += dtkwidget
 ```
 
+##### qtcreator cmake
+
+- cmake项目在自己手动建立（下方给出）后导入qtcreator，需要自己重新手动扫描项目，方式：`构建->rescan projiect`，之后才能正确生成项目目录结构，否则报错`"CMAKE_HOME_DIRECTORY" is set but incompatible with configured source dir`
   
 
 ## 编程
@@ -132,12 +137,12 @@ PKGCONFIG += dtkwidget
 
 ### 项目说明
 
-使用这种方案开发的步骤如下
+本次使用以下方案开发的步骤如下
 
 1. 建立工程文件夹
 2. 按照模板建立工程文件
-3. 在vscode中编写代码
-4. 通过cmake插件编译运行
+3. 在vscode/qtcreator中编写代码
+4. 通过cmake编译运行
 
 
 ### cmake
@@ -244,6 +249,8 @@ int main(int argc, char *argv[]) {
 
 ####编译运行程序
 
+##### VsCode
+
 - 使用顺序如下
 
 ![compile the code](../img/深度截图_dde-desktop_20190916143139.png)
@@ -260,6 +267,10 @@ int main(int argc, char *argv[]) {
 ![running code](../img/深度截图_选择区域_20190916144815.png)
 
 *运行程序*
+
+##### Qtcreator
+
+- 直接点击左下角运行图标即可
 
   
 
@@ -888,13 +899,119 @@ void DiySignalTest::resizeEvent(QResizeEvent *event){
 
 ![diysignaltest](../img/深度截图_选择区域_20190921174628.png)
 
-#### QCheckBox
-
-#### QRadioButton
-
-#### Slider
 
 #### ListView
+
+- Listview是一个能够存放一列数据的列表组件，一般是存放item数据或者variant数据，将数据存放进去之后可以通过响应点击之类的信号后返回被点击item的index，可以与list相互配合存放自定义类。
+- 使用listview不能直接通过listview来添加或者操作列表组件的元素，而是通过一个model来设置、操作listview中的元素。简单来说，用房子当做例子，listview就是销售的，他只是给你卖了一个房子而已，他不管你要怎么装修这个房子，但是如果你要改变房子的装修或者布局就得请工人，也就是model来进行了。
+- 所以，使用listview，就要配合model来进行操作与初始化。
+
+**实现方式**  
+
+listviewtest.h
+
+```h listviewtest.h
+#ifndef LISTVIEWTEST_H
+#define LISTVIEWTEST_H
+
+#include <QWidget>
+#include <QHBoxLayout>
+#include <QVBoxLayout>
+#include <QListView>
+#include <QLabel>
+#include <QStandardItem>
+#include <QStandardItemModel>
+#include <QList>
+#include <dlistview.h>
+#include <QDebug>
+
+class ListViewTest : public QWidget{
+    Q_OBJECT
+public:
+    ListViewTest(QWidget *parent=nullptr);
+
+private:
+
+
+};
+
+#endif /* LISTVIEWTEST_H */
+```
+
+**listviewtest.cpp**
+
+```cpp listviewtest.cpp
+#include "listviewtest.h"
+
+ListViewTest::ListViewTest(QWidget *parent):QWidget(parent){
+
+    QHBoxLayout *layout=new QHBoxLayout();
+    QVBoxLayout *l_layout=new QVBoxLayout();
+    QVBoxLayout *r_layout=new QVBoxLayout();
+
+    QListView *listview=new QListView();
+    Dtk::Widget::DListView *dlistview=new Dtk::Widget::DListView();
+    QStandardItemModel *model=new QStandardItemModel();
+    QLabel *l_label=new QLabel("QListview");
+    QLabel *r_label=new QLabel("DListview");
+    QLabel *l_d_label=new QLabel("default");
+    QLabel *r_d_label=new QLabel("default");
+
+
+    QStandardItem *item1=new QStandardItem(QIcon(":/src/images/tray_ico.png"),"1");
+    QStandardItem *item2=new QStandardItem(QIcon(":/src/images/tray_ico.png"),"2");
+    QStandardItem *item3=new QStandardItem(QIcon(":/src/images/tray_ico.png"),"3");
+    QStandardItem *item4=new QStandardItem(QIcon(":/src/images/tray_ico.png"),"4");
+    QStandardItem *item5=new QStandardItem(QIcon(":/src/images/tray_ico.png"),"5");
+    QStandardItem *item6=new QStandardItem(QIcon(":/src/images/tray_ico.png"),"6");
+
+    model->appendRow(item1);
+    model->appendRow(item2);
+    model->appendRow(item3);
+    model->appendRow(item4);
+    model->appendRow(item5);
+    model->appendRow(item6);
+
+    listview->setModel(model);
+    dlistview->setModel(model);
+
+    l_layout->addWidget(l_label);
+    l_layout->addWidget(listview);
+    l_layout->addWidget(l_d_label);
+
+    r_layout->addWidget(r_label);
+    r_layout->addWidget(dlistview);
+    r_layout->addWidget(r_d_label);
+
+    layout->addLayout(l_layout);
+    layout->addLayout(r_layout);
+
+    this->setLayout(layout);
+    this->setMinimumWidth(500);
+
+    connect(listview,&QListView::clicked,l_d_label,[=](const QModelIndex & index){
+        int row=index.row();
+        l_d_label->setNum(row);
+    });
+
+    connect(dlistview,&Dtk::Widget::DListView::clicked,r_d_label,[=](const QModelIndex & index){
+        int row=index.row();
+        r_d_label->setNum(row);
+    });
+}
+```
+
+**实现效果**
+
+- 我用listview把之前的类都存放起来了，具体实现在`widgetlistview`类文件中，请自行查看。
+
+![listview test](../img/深度截图_选择区域_20191003091218.png)
+
+#### CheckBox
+
+#### RadioButton
+
+#### Slider
 
 #### TableView
 
