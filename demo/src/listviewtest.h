@@ -11,6 +11,7 @@
 #include <QList>
 #include <dlistview.h>
 #include <QDebug>
+#include <QFrame>
 
 class ListViewTest : public QWidget{
     Q_OBJECT

@@ -187,6 +187,8 @@ dlistview.h
 -
 QDebug
 -
+QFrame
+-
 
 /home/impressionyang/workspacae/deepin/deepin_development/demo/src/main.cpp
 DApplication

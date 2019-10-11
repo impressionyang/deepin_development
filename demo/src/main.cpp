@@ -24,7 +24,7 @@ int main(int argc, char *argv[]) {
     if (app.setSingleInstance(socket_path)) {
         app.setTheme("light");
         app.loadTranslator();
-        const QString descriptionText = QApplication::tr("A simple Qt Demo by vscode and CMake");
+        const QString descriptionText = QApplication::tr("A simple Qt Demo by d CMake");
         const QString acknowledgementLink = "";
         app.setOrganizationName("impressionyang");
         app.setApplicationName("Demo");
@@ -33,7 +33,7 @@ int main(int argc, char *argv[]) {
         app.setProductName(QApplication::tr("Demo"));
         app.setApplicationDescription(descriptionText);
         app.setApplicationAcknowledgementPage(acknowledgementLink);
-        app.setProductIcon(ico);
+        app.setProductIcon(QIcon(":/src/images/tray_ico.png"));
         // DMainWindow window;
         // window.setFixedWidth(600);
         // Dtk::Widget::moveToCenter(&window);

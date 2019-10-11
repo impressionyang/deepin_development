@@ -14,6 +14,10 @@ ListViewTest::ListViewTest(QWidget *parent):QWidget(parent){
     QLabel *l_d_label=new QLabel("default");
     QLabel *r_d_label=new QLabel("default");
 
+    QFrame * line   = new QFrame();
+    line->setFrameShape(QFrame::VLine);
+    line->setFrameShadow(QFrame::Plain);
+
 
     QStandardItem *item1=new QStandardItem(QIcon(":/src/images/tray_ico.png"),"1");
     QStandardItem *item2=new QStandardItem(QIcon(":/src/images/tray_ico.png"),"2");
@@ -41,6 +45,7 @@ ListViewTest::ListViewTest(QWidget *parent):QWidget(parent){
     r_layout->addWidget(r_d_label);
 
     layout->addLayout(l_layout);
+    layout->addWidget(line);
     layout->addLayout(r_layout);
 
     this->setLayout(layout);
